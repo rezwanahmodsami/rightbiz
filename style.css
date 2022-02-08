@@ -1,0 +1,205 @@
+@import url(/css/header-footer.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1150px;
+  margin: auto;
+}
+
+header {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.nav-ul li {
+  display: inline-block;
+  margin: 0 0.625rem;
+}
+
+.nav-ul li a {
+  color: var(--dark);
+}
+
+.sell_btn {
+  background: var(--blue);
+}
+
+.account_btn {
+  background: var(--orange);
+}
+
+/* banner start */
+
+.banner-container {
+  width: 100%;
+  height: 40vh;
+  background: url(/images/background.png) no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.banner-inner-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.banner-content h2,
+.banner-content p {
+  color: var(--white);
+}
+
+.little-text {
+  color: var(--orange);
+}
+
+.started_btn {
+  margin-top: 10px;
+  background: var(--orange);
+}
+
+.building-img {
+  width: 70%;
+  height: auto;
+  padding-top: 50px;
+}
+
+/* banner end */
+
+/* investor start */
+
+.investor-container {
+  padding: 5rem 0;
+}
+
+.investor-title,
+.investor-desc {
+  color: var(--dark);
+  text-align: center;
+}
+
+.investor-tittle-text {
+  color: var(--orange);
+}
+
+.investor-inner-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  padding: 5rem 0;
+}
+
+.investor-card-body {
+  text-align: center;
+  border: 1px solid var(--grey);
+  padding: 1.25rem;
+  border-radius: 0.313rem;
+}
+
+.investor-card-body h3 {
+  padding: 0.938rem 0;
+}
+
+/* investor end */
+
+
+/* marketplace start */
+
+.marketplace-container {
+  background: url(/images/bg2.png) no-repeat center;
+  background-position: cover;
+  padding: 4rem 0;
+}
+
+.marketplace-title {
+  color: var(--white);
+  text-align: center;
+  padding: 30px 0;
+}
+
+.marketplace-inner-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+}
+
+.marketplace-card {
+  display: flex;
+}
+
+.marketplace-icon {
+  width: 50px;
+  height: 50px;
+}
+
+.marketplace-card-content {
+  margin-left: 10px;
+}
+
+.marketplace-card-content h4,
+.marketplace-card-content p {
+  color: var(--white);
+}
+
+/* marketplace end */
+
+/* send details */
+
+.send-details-container {
+  margin: 5rem 0;
+}
+
+.send-details-ul {
+  border-bottom: 2px solid var(--grey);
+  text-align: center;
+  margin: 0.625rem 0;
+}
+
+.send-details-ul li {
+  display: inline-block;
+  margin: 0 1.25rem;
+  padding: 0.625rem 20px;
+}
+
+.send-details-ul li:hover {
+  border-bottom: 2px solid var(--blue);
+}
+
+.send-details-ul li a {
+  color: var(--blue);
+}
+
+.form-section label {
+  display: inline-block;
+  margin: 0.313rem 0;
+}
+
+.form-section .input-field {
+  width: 100%;
+  padding: 0.5rem 0.938rem;
+  font-size: 16px;
+  outline: none;
+  border: 1px solid var(--grey-d-1);
+  border-radius: 1.875rem;
+}
+
+.checkbox-field {
+  margin-top: 0.625rem;
+}
+
+.submit-btn {
+  margin-top: 1.25rem;
+  background: var(--orange);
+  padding: 0.625rem 1.875rem;
+}
