@@ -212,6 +212,10 @@ nav {
   padding: 0.625rem 1.875rem;
 }
 
+.terms-conditions {
+  margin-top: 0.625rem;
+}
+
 #callback-form {
   display: none;
 }
