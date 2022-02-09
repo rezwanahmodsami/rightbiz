@@ -185,6 +185,7 @@ nav {
 
 .send-details-ul li a {
   color: var(--blue);
+  cursor: pointer;
 }
 
 .form-section label {
@@ -209,6 +210,10 @@ nav {
   margin-top: 1.25rem;
   background: var(--orange);
   padding: 0.625rem 1.875rem;
+}
+
+#callback-form {
+  display: none;
 }
 
 /* footer */

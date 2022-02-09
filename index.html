@@ -133,13 +133,50 @@
     <div class="container">
       <ul class="send-details-ul">
         <li>
-          <a href="#">Get Started</a>
+          <a onclick="getStarted()" id="started-btn">Get Started</a>
         </li>
         <li>
-          <a href="#">Request A Callback</a>
+          <a onclick="requestCallback()" id="request-btn">Request A Callback</a>
         </li>
       </ul>
-      <form class="form-section" action="#">
+      <form id="started-form" class="form-section" action="#">
+        <label for="business-name">Business Name*</label>
+        <br />
+        <input class="input-field" type="text" name="" id="business-name">
+        <br />
+        <label for="company-name">Company Name*</label>
+        <br />
+        <input class="input-field" type="text" name="" id="company-name">
+        <br />
+        <label for="city-town">City/Town*</label>
+        <br />
+        <input class="input-field" type="text" name="" id="city-town">
+        <br />
+        <label for="post-code">Post Code*</label>
+        <br />
+        <input class="input-field" type="text" name="" id="post-code">
+        <br />
+        <label for="gross-profit">Gross Profit (£)</label>
+        <br />
+        <input class="input-field" type="text" name="" id="gross-profit">
+        <br />
+        <label for="annual-turnover">Annual Turnover (£)</label>
+        <br />
+        <input class="input-field" type="text" name="" id="annual-turnover">
+        <br />
+        <label for="tenure-type">Tenure Type</label>
+        <br />
+        <input class="input-field" type="text" name="" id="tenure-type">
+        <br />
+        <div class="checkbox-field">
+          <input type="checkbox" name="" id="">
+          <span>I have read and accept the Terms and Conditions and Privacy Policy</span>
+        </div>
+        <p>By submitting this request for a free business valuation, you confirm that you agree to our website terms of
+          use, our privacy policy and consent to cookies being stored on your computer.</p>
+        <input class="btn submit-btn" type="submit" value="Submit">
+      </form>
+      <form id="callback-form" action="#">
         <label for="business-name">Business Name*</label>
         <br />
         <input class="input-field" type="text" name="" id="business-name">
@@ -272,6 +309,8 @@
       </div>
     </div>
   </footer>
+
+  <script src="./js/index.js"></script>
 
 </body>
 
