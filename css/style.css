@@ -278,6 +278,10 @@ nav {
     grid-template-columns: 1fr;
   }
 
+  .investor-card-body {
+    margin: 0.625rem 0;
+  }
+
   .marketplace-card {
     margin: 0.625rem 0;
   }
