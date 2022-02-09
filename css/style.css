@@ -168,7 +168,7 @@ nav {
 }
 
 .send-details-ul {
-  border-bottom: 2px solid var(--grey);
+  border-bottom: 2px solid var(--grey-d-1);
   text-align: center;
   margin: 0.625rem 0;
 }
