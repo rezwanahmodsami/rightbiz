@@ -180,7 +180,7 @@ nav {
 }
 
 .send-details-ul li:hover {
-  border-bottom: 2px solid var(--blue);
+  border-bottom: 2px solid var(--grey-d-1);
 }
 
 .send-details-ul li a {
