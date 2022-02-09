@@ -266,6 +266,10 @@ nav {
     justify-content: center;
   }
 
+  .send-details-ul li {
+    margin: 0;
+  }
+
   .investor-inner-container {
     grid-template-columns: 1fr;
   }
