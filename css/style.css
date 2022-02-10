@@ -52,12 +52,12 @@ nav {
   display: flex;
   align-items: center;
   padding: 1rem 0;
+  text-align: center;
 }
 
-.banner-inner-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: center;
+.banner-content {
+  width: 50%;
+  margin: auto;
 }
 
 .banner-content h2,
@@ -65,14 +65,17 @@ nav {
   color: var(--white);
 }
 
+.banner-content p {
+  margin: 1rem 0;
+}
+
 .little-text {
   color: var(--orange);
 }
 
 .started_btn {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
   background: var(--orange);
+  margin: auto;
 }
 
 .building-img {
