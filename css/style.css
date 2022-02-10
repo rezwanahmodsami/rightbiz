@@ -222,7 +222,7 @@ nav {
 }
 
 .checkbox-field {
-  margin-top: 0.625rem;
+  margin: 1rem 0;
 }
 
 .submit-btn {
@@ -232,7 +232,7 @@ nav {
 }
 
 .terms-conditions {
-  margin-top: 0.625rem;
+  margin-top: 1rem;
 }
 
 #callback-form {
