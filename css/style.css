@@ -213,6 +213,10 @@ nav {
   border-radius: 1.875rem;
 }
 
+.form-section .input-field:focus {
+  border-radius: 1.563rem 1.563rem 0 0;
+}
+
 .checkbox-field {
   margin-top: 0.625rem;
 }
