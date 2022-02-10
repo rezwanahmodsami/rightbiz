@@ -169,7 +169,6 @@ nav {
 }
 
 .send-details-ul {
-  border-bottom: 2px solid var(--grey);
   text-align: center;
   margin: 0.625rem 0;
 }
