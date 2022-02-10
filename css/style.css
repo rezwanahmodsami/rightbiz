@@ -51,6 +51,7 @@ nav {
   overflow: hidden;
   display: flex;
   align-items: center;
+  padding: 1rem 0;
 }
 
 .banner-inner-container {
