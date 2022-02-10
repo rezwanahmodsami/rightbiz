@@ -274,12 +274,8 @@ nav {
     height: auto;
   }
 
-  .banner-inner-container {
-    grid-template-columns: 1fr;
-  }
-
   .banner-content {
-    text-align: center;
+    width: 100%;
   }
 
   .started_btn {
