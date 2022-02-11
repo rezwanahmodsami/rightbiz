@@ -134,7 +134,6 @@ nav {
   width: 130px;
   height: 130px;
   margin: auto;
-  background: var(--orange);
   display: flex;
   justify-content: center;
   align-items: center;
