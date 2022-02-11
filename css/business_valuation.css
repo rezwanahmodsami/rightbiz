@@ -12,6 +12,10 @@
   margin-top: 0.625rem;
 }
 
+.primary-btn:hover {
+  background-color: var(--orange-d-1);
+}
+
 /*===============
       Navbar
 ===============*/
@@ -41,6 +45,14 @@ nav {
 
 .account_btn {
   background: var(--orange);
+}
+
+.sell_btn:hover {
+  background-color: var(--blue-d-1);
+}
+
+.account_btn:hover {
+  background-color: var(--orange-d-1);
 }
 
 /*==================
