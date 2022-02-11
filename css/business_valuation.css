@@ -151,6 +151,48 @@ nav {
 }
 
 /*==============
+  Form Section
+==============*/
+
+.form-section {
+  margin: 0.625rem;
+  padding: 0.625rem;
+}
+
+.form-section label {
+  display: inline-block;
+  margin: 0.313rem 0;
+}
+
+.form-section .input-field {
+  width: 100%;
+  padding: 0.5rem 0.938rem;
+  font-size: 16px;
+  outline: none;
+  border: 2px solid var(--grey);
+  border-radius: 1.875rem;
+}
+
+.form-section .input-field:focus {
+  border-radius: 1.563rem 1.563rem 0 0;
+}
+
+.checkbox-field {
+  margin: 1rem 0;
+}
+
+.submit-btn {
+  margin-top: 1.25rem;
+  background: var(--orange);
+  padding: 0.625rem 1.875rem;
+}
+
+.terms-conditions {
+  margin-top: 1rem;
+}
+
+
+/*==============
      footer
 ==============*/
 
