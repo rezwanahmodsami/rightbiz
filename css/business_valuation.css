@@ -105,6 +105,10 @@ nav {
   margin: auto;
 }
 
+.business-disclaimer-section h2 {
+  font-size: 0.625rem;
+}
+
 .discliamer-desc {
   margin: 1rem 0;
   font-size: 0.625rem;
