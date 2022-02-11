@@ -187,6 +187,10 @@ nav {
   padding: 0.625rem 1.875rem;
 }
 
+.submit-btn:hover {
+  background-color: var(--orange-d-1);
+}
+
 .terms-conditions {
   margin-top: 1rem;
 }
