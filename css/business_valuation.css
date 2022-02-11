@@ -1,0 +1,164 @@
+@import url(./header-footer.css);
+
+.container {
+  width: 100%;
+  max-width: 78.12rem;
+  padding: 0 1rem;
+  margin: auto;
+}
+
+.primary-btn {
+  background: var(--orange);
+  margin-top: 1rem;
+}
+
+/*===============
+      Navbar
+===============*/
+header {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+}
+
+.nav-ul li {
+  display: inline-block;
+  margin: 0 0.625rem;
+}
+
+.nav-ul li a {
+  color: var(--dark);
+}
+
+.sell_btn {
+  background: var(--blue);
+}
+
+.account_btn {
+  background: var(--orange);
+}
+
+/*==================
+      Banner
+==================*/
+
+.business_valuation_banner {
+  width: 100%;
+  height: 50vh;
+  background: url(../images/business_valuation_bg.webp) no-repeat center;
+  background-size: cover;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.business_valuation_content {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-column-gap: 1rem;
+  align-items: center;
+}
+
+.banner-heading-content {
+  color: var(--white);
+}
+
+.banner-header {
+  margin-bottom: 1rem;
+}
+
+.little-text {
+  color: var(--orange);
+}
+
+
+/*================
+  Value business
+================*/
+
+.value-business-container {
+  padding: 4rem 0;
+}
+
+.faq-intro {
+  margin: 1rem 0;
+}
+
+.business-value-calculator-container {
+  padding: 4rem 0;
+}
+
+.business-value-calculator-container h2 {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.business-value-calculator-content {
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: auto;
+}
+
+.discliamer-desc {
+  margin: 1rem 0;
+}
+
+.b-v-c-box {
+  text-align: center;
+}
+
+.img-container {
+  width: 130px;
+  height: 130px;
+  margin: auto;
+  background: var(--orange);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.img-container img {
+  width: 50%;
+  height: 50%;
+}
+
+.b-v-c-content {
+  margin: 1rem 0;
+}
+
+/*==============
+     footer
+==============*/
+
+.footer-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  color: var(--white);
+  padding: 5rem 0;
+}
+
+.footer-header {
+  padding: 0.625rem 0;
+}
+
+.footer-ul li {
+  margin: 0.625rem 0;
+}
+
+.footer-ul li a {
+  color: var(--white);
+}
+
+/*=======================
+        Responsive
+=======================*/
+
+@media only screen and (max-width: 992px) {}
