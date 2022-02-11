@@ -12,10 +12,6 @@
   margin-top: 0.625rem;
 }
 
-p {
-  font-size: 1rem;
-}
-
 /*===============
       Navbar
 ===============*/
@@ -111,6 +107,7 @@ nav {
 
 .discliamer-desc {
   margin: 1rem 0;
+  font-size: 0.625rem;
 }
 
 .b-v-c-box {
