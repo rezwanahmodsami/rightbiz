@@ -161,4 +161,20 @@ nav {
         Responsive
 =======================*/
 
-@media only screen and (max-width: 992px) {}
+@media only screen and (max-width: 992px) {
+  header {
+    display: none;
+  }
+
+  .business_valuation_content {
+    grid-template-columns: 1fr;
+  }
+
+  .business-value-calculator-content {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+  }
+}
