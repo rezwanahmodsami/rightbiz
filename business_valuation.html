@@ -117,7 +117,151 @@
         </div>
 
         <div class="form-container">
-          <form id="started-form" class="form-section" action="#">
+          <form id="regForm" action="" method="post">
+            <input type="hidden" id="freehold_val_hidden" name="freehold_val_hidden">
+            <h1>Get Valuation:</h1>
+            <!-- One "tab" for each step in the form: -->
+            <div class="tab ">
+              <h3 style="text-align:center;color:blue;">STEP - <span class="stepp"></span></h3> Choose Your Category
+              (Freehold/Leasehold):
+              <span id="err_msg_holdcat" style="color:red"></span>
+              <p>{cat_hold}</p>
+              What You are selling:
+              <p><input placeholder="Headline..." oninput="this.className = ''" name="headline"></p>
+            </div>
+            <div class="tab lease">
+              <h3 style="text-align:center;color:blue;">STEP - <span class="stepp"></span></h3>Choose Your Specific
+              Category:<span id="category_msg" style="color:red"></span>
+              <p class="err_msg">{cat_select}</p>
+            </div>
+            <div class="tab free">
+              <h3 style="text-align:center;color:blue;">STEP - <span class="stepp"></span></h3>
+              Postcode:<span id="msginvalid" style="color:red"></span>
+              <p class="err_msg"><input placeholder="Enter Postcode" class="req" oninput="this.className = ''"
+                  name="postcode" id="postcode"></p>
+            </div>
+            <div class="tab free">
+              <h3 style="text-align:center;color:blue;">STEP - <span class="stepp"></span></h3>
+              <p id="addressdiv"></p>
+              <span id="address_err_msg" style="color:red;display:none">(Please choose any one)</span>
+            </div>
+            <div class="tab free">
+              <div id="rating_div">
+                <h3 style="text-align:center;color:blue;">STEP - <span class="stepp"></span></h3>Your business Rating
+                is:
+                <label style="display:none" id="rating_org"> </label>
+                <br><br>If the value is incorrect, please adjust it using a slide menu option :
+                <label id="rating"></label>
+                <input type="hidden" value="" id="user_rating" name="user_rating">
+                <input type="hidden" value="" id="rating_org_val" name="rating_org_val">
+                <input type="range" max="10000" min="100" id="range_select" value="333"
+                  oninput="change_rating(this.value)">
+              </div>
+              <div id="user_rating_div" style="display:none">
+                Enter your business rate :<span id="bussiness_error" style="color:red"></span>
+                <p><input class="" placeholder="Bussiness rate..." oninput="this.className = ''"
+                    onkeyup="hide_error('bussiness_error')" name="user_business_rate" id="user_business_rate"></p>
+              </div>
+            </div>
+            <div class="tab free">
+              <h3 style="text-align:center;color:blue;">STEP - <span class="stepp"></span></h3>
+              <label class='col-md-6'>Business is currently trading : </label>
+              <input id="individual" type="radio" name="trade_check" value="1" onclick="freehold_valuation('yes','')">
+              <label for="individual"><span></span>Yes</label>
+
+              <input id="organization" type="radio" name="trade_check" value="2" onclick="freehold_valuation('no','')">
+              <label for="organization"><span></span>No</label>
+            </div>
+            <div class=" combined_lease hiddentab">
+              <h3 style="text-align:center;color:blue;">STEP - <span class="stepp"></span></h3>Choose Your Specific
+              Category:<span id="category_msg" style="color:red"></span>
+              <p class="err_msg">{cat_select_freehold}</p>
+            </div>
+            <div class=" combined_lease hiddentab">
+              <h3 style="text-align:center;color:blue;">STEP - <span class="stepp"></span></h3>
+              Choose Upto 3 Categories:<br>
+              <p>{cat_1}</p>
+              <p>{cat_2}</p>
+              <p>{cat_3}</p>
+            </div>
+            <div class="combined_lease hiddentab">
+              <h3 style="text-align:center;color:blue;">STEP - <span class="stepp"></span></h3>Enter Your Turnover:<span
+                id="leaseturnoverid" style="color:red"></span>
+              <p><input placeholder="Turnover..." oninput="this.className = ''" class="req" name="free_turnover"
+                  onkeyup="hide_error('leaseturnoverid')"></p>
+            </div>
+            <div class="tab free">
+              <h3 style="text-align:center;color:blue;">STEP - <span class="stepp"></span></h3> Enter your email and
+              name to see
+              your valuation
+              <br>
+              Email : <span id="email_err" style="color:red"></span>
+              <p><input placeholder="Enter Email" oninput="this.className = ''" class="req" required
+                  name="free_user_email" id="free_user_email" onkeyup="hide_error('email_err') "></p>
+              Name :<span id="name_err" style="color:red"></span>
+              <p><input placeholder="Enter Name" oninput="this.className = ''" class="req" required
+                  name="free_user_cname" id="free_user_cname" onkeyup="hide_error('name_err')"></p>
+            </div>
+            <div class="tab free">
+              <h3 style="text-align:center;color:blue;">STEP - <span class="stepp"></span></h3>
+              <div id="tab6" style="margin-top:1%">
+                Your Freehold valuation is:<b>
+                  <label id="freehold_val"></label></b><br>
+              </div>
+              <div id="leasehold_div" style="margin-top:1%;display:none">
+                Your Leasehold valuation is:<b>
+                  <label id="leasehold_val"></label></b><br>
+              </div>
+            </div>
+            <div class="tab lease">
+              <h3 style="text-align:center;color:blue;">STEP - <span class="stepp"></span></h3>
+              Choose Upto 3 Categories:<br>
+              <p>{cat_1}</p>
+              <p>{cat_2}</p>
+              <p>{cat_3}</p>
+            </div>
+            <div class="tab lease">
+              <h3 style="text-align:center;color:blue;">STEP - <span class="stepp"></span></h3>Enter Your Turnover:<span
+                id="turnoverid" style="color:red"></span>
+              <p><input placeholder="Turnover..." oninput="this.className = ''" class="req" name="turnover"
+                  onkeyup="hide_error('turnoverid')"></p>
+            </div>
+            <div class="tab lease">
+              <h3 style="text-align:center;color:blue;">STEP - <span class="stepp"></span></h3> Enter your email and
+              name to see
+              your valuation
+              <br>
+              Email : <span id="email_err" style="color:red"></span>
+              <p><input placeholder="Enter Email" oninput="this.className = ''" class="req" required
+                  name="lease_user_email" id="lease_user_email" onkeyup="hide_error('email_err') "></p>
+              Name :<span id="name_err" style="color:red"></span>lease_user_email
+              <p><input placeholder="Enter Name" oninput="this.className = ''" class="req" required
+                  name="lease_user_cname" id="lease_user_cname" onkeyup="hide_error('name_err')"></p>
+            </div>
+            <div class="restab">
+              <p id="restabp"></p>
+            </div>
+            <div style="overflow:auto;">
+              <div style="float:right;">
+                <button type="button" id="prevBtn" onclick="previous(-1)">Previous</button>
+                <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+              </div>
+            </div>
+            <!-- Circles which indicates the steps of the form: -->
+            <div style="text-align:center;margin-top:40px;">
+              <span class="step"></span>
+              <span class="step"></span>
+              <span class="step"></span>
+              <span class="step"></span>
+              <span class="step"></span>
+              <span class="step"></span>
+              <span class="step"></span>
+              <span class="step"></span>
+              <span class="step"></span>
+            </div>
+            <div id=serializearray></div>
+          </form>
+          <!-- <form id="started-form" class="form-section" action="#">
             <label for="business-name">Your Name*</label>
             <br />
             <input class="input-field" type="text" name="" id="business-name">
@@ -155,7 +299,7 @@
               to our website terms of
               use, our privacy policy and consent to cookies being stored on your computer.</p>
             <input class="btn submit-btn" type="submit" value="Submit">
-          </form>
+          </form> -->
         </div>
 
         <div class="business-disclaimer-section">
