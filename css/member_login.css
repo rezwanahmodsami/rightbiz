@@ -69,9 +69,9 @@ body {
 
 .input-form {
   width: 100%;
-  padding: 0.313rem;
+  padding: 10px 20px;
   border: 1px solid #ccc;
-  border-radius: 0.25rem;
+  border-radius: 30px;
   outline: none;
 }
 
@@ -102,10 +102,10 @@ label {
 
 .login-btn {
   background: linear-gradient(to bottom, #0088eb 0, #006ebe 100%);
-  padding: 5px 20px;
+  padding: 10px 30px;
   border: 0;
   cursor: pointer;
-  border-radius: 3px;
+  border-radius: 30px;
   color: var(--white);
 }
 
@@ -119,10 +119,10 @@ label {
 
 .create-account-btn {
   background: linear-gradient(to bottom, #0088eb 0, #006ebe 100%);
-  padding: 5px 20px;
+  padding: 10px 30px;
   border: 0;
   cursor: pointer;
-  border-radius: 3px;
+  border-radius: 30px;
   color: var(--white);
   margin-top: 2rem;
 }
