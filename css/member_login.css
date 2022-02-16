@@ -73,6 +73,7 @@ body {
   border: 1px solid #ccc;
   border-radius: 30px;
   outline: none;
+  margin-bottom: 1rem;
 }
 
 .input-form:focus {
