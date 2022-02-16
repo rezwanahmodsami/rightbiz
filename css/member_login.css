@@ -1,0 +1,138 @@
+@import url(/css/header-footer.css);
+
+.container {
+  width: 100%;
+  max-width: 78.12rem;
+  padding: 0 1rem;
+  margin: auto;
+}
+
+.rules {
+  border: 1px solid #ddd;
+  margin: 1rem 0;
+}
+
+body {
+  background: #ebeced;
+
+}
+
+
+
+.banner_section {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.creating-account-content {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-column-gap: 1.563rem;
+}
+
+.sign-in-content,
+.create-account-content {
+  background: var(--white);
+  padding: 2rem;
+  border-radius: 0.313rem;
+}
+
+.sign-in-content h3 {
+  padding: 1.25rem 0;
+}
+
+.google-btn {
+  background: #dd4b39;
+  border: 1px solid #d04230;
+  padding: 8px 20px;
+  color: var(--white);
+  border-radius: 0.313rem;
+  margin: 0 0 0.625rem 0;
+  box-shadow: 0 2px 1px rgb(0 0 0 / 30%);
+  cursor: pointer;
+}
+
+.facebook-btn {
+  background: #3b5998;
+  border: 1px solid #3b5998;
+  padding: 8px 20px;
+  color: var(--white);
+  border-radius: 0.313rem;
+  box-shadow: 0 2px 1px rgb(0 0 0 / 30%);
+  cursor: pointer;
+}
+
+.sign-in-container h3 {
+  padding: 1rem 0;
+  color: var(--blue);
+}
+
+.input-form {
+  width: 100%;
+  padding: 0.313rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  outline: none;
+}
+
+.input-form:focus {
+  border: 1px solid #66afe9;
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%),
+    0 0 8px rgb(102 175 233 / 60%);
+}
+
+label {
+  margin: 0.131rem 0;
+  display: inline-block;
+}
+
+.forgotten-link {
+  text-align: right;
+  margin: 0.313rem 0;
+}
+
+.forgotten-link a {
+  color: var(--blue);
+  font-size: 12px;
+}
+
+.forgotten-link a:hover {
+  border-bottom: 1px solid var(--blue);
+}
+
+.login-btn {
+  background: linear-gradient(to bottom, #0088eb 0, #006ebe 100%);
+  padding: 5px 20px;
+  border: 0;
+  cursor: pointer;
+  border-radius: 3px;
+  color: var(--white);
+}
+
+.login-btn:hover {
+  background: #0088eb;
+}
+
+.create-account-content h3 {
+  padding: 1.25rem 0;
+}
+
+.create-account-btn {
+  background: linear-gradient(to bottom, #0088eb 0, #006ebe 100%);
+  padding: 5px 20px;
+  border: 0;
+  cursor: pointer;
+  border-radius: 3px;
+  color: var(--white);
+  margin-top: 2rem;
+}
+
+.create-account-btn:hover {
+  background: #0088eb;
+}
+
+.t-p {
+  text-align: center;
+  font-size: 9pt;
+  margin: 2rem 0;
+}

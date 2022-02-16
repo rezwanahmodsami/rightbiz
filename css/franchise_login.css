@@ -1,0 +1,14 @@
+@import url(/css/header-footer.css);
+
+.container {
+  width: 100%;
+  max-width: 78.12rem;
+  padding: 0 1rem;
+  margin: auto;
+}
+
+.banner-container {
+  width: 100%;
+  height: 50vh;
+  background: url(/images/franchise_login_background.png) no-repeat center / cover;
+}
