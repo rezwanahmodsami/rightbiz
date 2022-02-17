@@ -3,7 +3,7 @@
 .container {
   width: 100%;
   max-width: 78.12rem;
-  padding: 0 1rem;
+  padding: 0 2rem;
   margin: auto;
 }
 
@@ -84,7 +84,7 @@ body {
 }
 
 label {
-  margin: 0.131rem 0;
+  margin: 0.131rem 1.2rem 0;
   display: inline-block;
 }
 
@@ -146,5 +146,9 @@ label {
   .creating-account-content {
     grid-template-columns: 1fr;
     grid-row-gap: 20px;
+  }
+
+  label {
+    margin-left: 1.2rem;
   }
 }
