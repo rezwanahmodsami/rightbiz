@@ -1,5 +1,10 @@
 @import url(../css/header-footer.css);
 
+@font-face {
+  font-family: "Outfit";
+  src: url("/assets/fonts/Outfit/static/Outfit-Regular.ttf");
+}
+
 .container {
   width: 100%;
   max-width: 78.12rem;
@@ -9,6 +14,7 @@
 
 body {
   background: var(--grey-blue-l-1);
+  font-family: "Outfit";
 }
 
 .feedback_container h3 {
