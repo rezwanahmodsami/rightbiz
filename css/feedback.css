@@ -1,0 +1,49 @@
+@import url(../css/header-footer.css);
+
+.container {
+  width: 100%;
+  max-width: 78.12rem;
+  padding: 0 1rem;
+  margin: auto;
+}
+
+body {
+  background: var(--grey-blue-l-1);
+}
+
+.feedback_container h3 {
+  margin: 1.5rem 0 1rem 0;
+}
+
+.feedback_content {
+  padding: 2rem;
+  background: var(--white);
+}
+
+#feedback_area {
+  outline: none;
+  padding: 1rem;
+}
+
+#feedback_area:focus {
+  border: 1px solid #66afe9;
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%),
+    0 0 8px rgb(102 175 233 / 60%);
+
+}
+
+#submit-btn {
+  margin: 1rem 0;
+  display: inline-block;
+  background: linear-gradient(to bottom, #0088eb 0, #006ebe 100%);
+  border: 0;
+  padding: 0.313rem 1rem;
+  color: var(--white);
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 0.188rem;
+}
+
+#submit-btn:hover {
+  background: #0088eb;
+}
