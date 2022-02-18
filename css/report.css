@@ -99,8 +99,8 @@ body {
 
 .t-a-c-container {
   background: var(--white);
-  padding: 1.5rem;
-  margin: 2rem 0;
+  padding: 2rem;
+  margin: 1.5rem 0;
 }
 
 .trams-and-conditions-intro h1 {
@@ -126,4 +126,69 @@ body {
 
 .t-a-c-ul li p {
   font-size: 0.875rem;
+}
+
+/*------------------
+  Privacy Policy
+------------------*/
+
+.privacy-policy-container {
+  background: var(--white);
+  padding: 2rem;
+  margin: 1.5rem 0;
+}
+
+.privacy-policy-container h1 {
+  margin: 2rem 0;
+}
+
+.privacy-policy-ul li {
+  margin: 1rem 0;
+}
+
+.privacy-policy-ul li p {
+  font-size: 14px;
+}
+
+.right-ensure-ul {
+  margin-left: 1rem;
+}
+
+.right-ensure-ul li {
+  margin: 0;
+  list-style: disc;
+}
+
+
+/*--------------------
+        Cookie
+--------------------*/
+
+.cookie-container {
+  margin: 1.5rem 0;
+  background: var(--white);
+  padding: 2rem;
+}
+
+.cookie-container h1 {
+  margin: 2rem 0;
+}
+
+.cookie-ul li {
+  margin: 1rem 0;
+}
+
+.cookie-ul li p {
+  font-size: 14px;
+}
+
+.show-cookie-btn {
+  padding: 0.188rem 2.5rem;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  margin-top: 1rem;
+}
+
+.show-cookie-btn:hover {
+  background: var(--white);
 }
