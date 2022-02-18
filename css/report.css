@@ -70,3 +70,38 @@ body {
 #submit-btn:hover {
   background: #0088eb;
 }
+
+/*-----------------------
+  Terms and conditions
+-----------------------*/
+
+.t-a-c-container {
+  background: var(--white);
+  padding: 1.5rem;
+  margin: 2rem 0;
+}
+
+.t-a-c-container h1 {
+  margin: 2rem 0;
+}
+
+.t-a-c-container p {
+  font-size: 0.875rem;
+}
+
+.t-a-c-container p~p {
+  margin: 1.5rem 0;
+}
+
+.t-a-c-ul {
+  margin-left: 2rem;
+}
+
+.t-a-c-ul li {
+  list-style-type: decimal;
+  font-size: 0.75rem;
+}
+
+.t-a-c-ul li p {
+  font-size: 0.875rem;
+}
