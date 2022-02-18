@@ -11,6 +11,28 @@ body {
   background: #ebeced;
 }
 
+/*---------------------
+      Navigation
+---------------------*/
+.nav-container {
+  background: var(--blue);
+}
+
+.nav-li {
+  display: inline-block;
+  padding: 1rem;
+}
+
+.nav-li a {
+  color: var(--white);
+}
+
+.nav-li:hover a {
+  text-decoration: underline;
+}
+
+
+
 .report-container {
   padding: 1rem 0;
 }
@@ -81,15 +103,15 @@ body {
   margin: 2rem 0;
 }
 
-.t-a-c-container h1 {
+.trams-and-conditions-intro h1 {
   margin: 2rem 0;
 }
 
-.t-a-c-container p {
+.trams-and-conditions-intro p {
   font-size: 0.875rem;
 }
 
-.t-a-c-container p~p {
+.trams-and-conditions-intro p~p {
   margin: 1.5rem 0;
 }
 
