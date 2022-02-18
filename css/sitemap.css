@@ -23,11 +23,11 @@ body {
   grid-column-gap: 1.25rem;
 }
 
-.sitemap {
-  height: 40vh;
+.sitemap-ul {
   background: var(--blue);
   border-radius: 0.313rem;
   border: 1px solid #004677;
+  overflow: hidden;
 }
 
 .sitemap h4 {
