@@ -1,0 +1,90 @@
+@import url(./header-footer.css);
+
+body {
+  background: #ebeced;
+}
+
+.container {
+  width: 100%;
+  max-width: 78.12rem;
+  padding: 0 1rem;
+  margin: auto;
+}
+
+
+
+.sitemap-container {
+  margin: 1.5rem 0;
+}
+
+.sitemap-inner-container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-column-gap: 1.25rem;
+}
+
+.sitemap {
+  height: 40vh;
+  background: var(--blue);
+  border-radius: 0.313rem;
+  border: 1px solid #004677;
+}
+
+.sitemap h4 {
+  color: var(--white);
+  margin: 1rem;
+}
+
+.sitemap-ul li {
+  background: var(--white);
+  padding: 5px;
+  cursor: pointer;
+}
+
+.sitemap-ul li:hover {
+  background: #FFF9DA;
+}
+
+.sitemap-ul li:hover a {
+  text-decoration: underline;
+}
+
+.sitemap-ul li a {
+  font-size: 12px;
+  display: block;
+  padding: 0.188rem;
+  color: #004677;
+}
+
+.new-business-sell {
+  background: var(--white);
+  padding: 1rem;
+  border-radius: 0.313rem;
+}
+
+.business-sell-container {
+  border: 1px solid #ddd;
+  border-radius: 0.188rem;
+  padding: 1rem;
+}
+
+.business-sell-container h4 {
+  margin: 1rem 0;
+}
+
+.business-sell-ul {
+  margin-left: 1.5rem;
+}
+
+.business-sell-ul li {
+  list-style-type: disc;
+}
+
+.business-sell-ul li a {
+  font-size: 0.875rem;
+  color: #004677;
+}
+
+.business-sell-ul li a:hover {
+  text-decoration: underline;
+}

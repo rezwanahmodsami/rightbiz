@@ -11,6 +11,13 @@ body {
   background: #ebeced;
 }
 
+.service-container h4,
+.payment-container h4,
+.content-container h4,
+.brokers-container h4 {
+  margin: 10px 0;
+}
+
 /*---------------------
       Navigation
 ---------------------*/
