@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback Report</title>
+  <link rel="stylesheet" href="./css/report.css">
+</head>
+
+<body>
+  <div class="container">
+    <section class="report-container">
+      <h2>Report a business</h2>
+      <div class="report-content">
+        <form action="#">
+          <label for="advert_url">Advert URL / Advert Id</label>
+          <br>
+          <input class="advert-url" type="text" name="" id="advert_url">
+          <ul class="reporting-ul">
+            <li class="reporting-li">
+              <input type="radio" name="reporting" id="spam">
+              <label for="spam">Advert is inappropriate / spam</label>
+            </li>
+            <li class="reporting-li">
+              <input type="radio" name="reporting" id="sold">
+              <label for="sold">Seller has confirmed business is sold</label>
+            </li>
+            <li class="reporting-li">
+              <input type="radio" name="reporting" id="not-on-sale">
+              <label for="not-on-sale">Seller has confirmed business is not on sale</label>
+            </li>
+            <li class="reporting-li">
+              <input type="radio" name="reporting" id="not-valid">
+              <label for="not-valid">Seller's contact details is not valid</label>
+            </li>
+            <li class="reporting-li">
+              <input type="radio" name="reporting" id="not-respond">
+              <label for="not-respond">Seller is not responding</label>
+            </li>
+            <li class="reporting-li">
+              <input type="radio" name="reporting" id="illegal">
+              <label for="illegal">Advert is illegal / fraudulent</label>
+            </li>
+            <li class="reporting-li">
+              <input type="radio" name="reporting" id="duplicate">
+              <label for="duplicate">This advert is a duplicate</label>
+            </li>
+            <li class="reporting-li">
+              <input type="radio" name="reporting" id="categorised">
+              <label for="categorised">Business is incorrectly categorised</label>
+            </li>
+            <li class="reporting-li">
+              <input type="radio" name="reporting" id="incorrect">
+              <label for="incorrect">Business location is incorrect</label>
+            </li>
+          </ul>
+
+          <label for="message">Your additional message*</label>
+          <br>
+          <textarea class="message-area" name="" id="message" cols="70" rows="5"></textarea>
+          <br>
+          <input id="submit-btn" type="submit" value="Report Business">
+        </form>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
