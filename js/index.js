@@ -13,3 +13,11 @@ const requestCallback = () => {
   callbackForm.style.display = "block";
   startedForm.style.display = "none";
 };
+
+// side nav
+
+const nav = document.getElementById("nav-toggle");
+
+nav.addEventListener("click", () => {
+  nav.classList.toggle("active-nav");
+});

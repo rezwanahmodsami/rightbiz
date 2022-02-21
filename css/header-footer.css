@@ -10,13 +10,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.container {
-  width: 100%;
-  max-width: 78.12rem;
-  padding: 0 2rem;
-  margin: auto;
-}
-
 :root {
   --grey-blue: #788aa1;
   --grey-blue-l-1: #ebedf1;
