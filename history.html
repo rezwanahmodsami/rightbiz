@@ -5,13 +5,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Messages</title>
+  <title>History</title>
   <link rel="stylesheet" href="./css/members_controlpanel.css">
 </head>
 
 <body>
   <section class="container">
-    <div class="messages-container">
+    <div class="history-container">
       <div id="nav-toggle" class="side-nav-toggler">
         <h4 class="nav-title">Navigation</h4>
         <div id="side-nav-upper-container">
@@ -21,9 +21,9 @@
               <li><a href="#">Home</a></li>
               <li><a href="./email-alerts.html">Email Alerts</a></li>
               <li><a href="#">One-Click Message</a></li>
-              <li><a href="#">Saved</a></li>
+              <li><a href="./saved.html">Saved</a></li>
               <li><a href="./messages.html">Messages</a></li>
-              <li><a href="./history.html">Enquiry History</a></li>
+              <li><a href="#">Enquiry History</a></li>
               <li><a href="#">Find Broker</a></li>
             </ul>
           </div>
@@ -49,24 +49,33 @@
           </div>
         </div>
       </div>
-      <div class="messages-body-container">
-        <div class="messages-body-content">
-          <div class="messages-header">
-            <h3>Messages</h3>
-            <p>Click the 'Read Message' to view enquiries and messages from potential buyers and sellers.</p>
+      <div class="history-content">
+        <div class="history-inner-content">
+          <div class="header-title">
+            <h2>Enquiry History</h2>
+            <p>Below are all of the businesses you have contacted via Rightbiz.</p>
           </div>
-          <div class="messages-body-inner-container">
-            <table class="messages-table">
+          <hr>
+          <div class="history-body">
+            <table>
+              <thead>
+                <tr>
+                  <th>Date enquires</th>
+                  <th>Adverts you have enquired</th>
+                  <th></th>
+                </tr>
+              </thead>
               <tbody>
                 <tr>
-                  <td>
-                    <p><a href="./message.html"><span class="title">Buyer</span> Manjur Manjur</a></p>
+                  <td class="addon">10 Feb, 2022 1.45pm</td>
+                  <td class="desc">
+                    <h5>To: Test</h5>
+                    <p>Your Message: Hello, I was scrolling through the listings page and noticed your business for
+                      sale. I was just wondering if I could get some more information. Could you please contact me as
+                      soon as possible?</p>
                   </td>
-                  <td>
-                    <p class="message-date">14 Feb 2022 <br> <span class="mssg-number">1</span></p>
-                  </td>
-                  <td>
-                    <p>Delete Icon</p>
+                  <td class="addon">
+                    <button class="go-advert-btn">Go to Advert</button>
                   </td>
                 </tr>
               </tbody>
