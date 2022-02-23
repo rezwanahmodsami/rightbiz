@@ -706,9 +706,14 @@ td {
   margin: 10px 0;
 }
 
+.email-sec a {
+  color: #777;
+}
+
 .email-sec p,
 .password-sec p {
   font-size: 15px;
+  color: #777;
 }
 
 .form-grp a {
