@@ -643,6 +643,53 @@ td {
   border: 0;
 }
 
+/* email alert */
+
+.email-alert-content {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.input-body {
+  margin: 1rem 0;
+  border-bottom: 1px solid #ccc;
+  padding: 1rem 0;
+}
+
+.input-body p {
+  font-size: 13px;
+}
+
+.input-body input[type=text] {
+  width: 100%;
+  padding: 5px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  outline: none;
+}
+
+.save-btn,
+.go-btn {
+  padding: 5px 10px;
+  border-radius: 3px;
+  border: none;
+}
+
+.save-btn {
+  background: linear-gradient(to bottom, #2d925d 0, #1e7246 100%);
+  border: 1px solid #1e7246;
+  color: var(--white);
+}
+
+.save-btn:hover {
+  background: linear-gradient(to bottom, #33aa6c 0, #238150 100%);
+}
+
+
+
 /*--------------------------------
             Responsive
 --------------------------------*/
