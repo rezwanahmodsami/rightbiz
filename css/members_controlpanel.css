@@ -729,8 +729,31 @@ td {
 
 .form-grps {
   border: 1px solid #ccc;
-  padding: 10px;
+  padding: 20px;
   margin: 10px 0;
+}
+
+.form-grps label {
+  font-weight: 600;
+}
+
+.form-grps p {
+  font-size: 13px;
+  color: #777;
+}
+
+.form-grps input {
+  width: 60%;
+  padding: 10px;
+  outline: none;
+  border: 1px solid silver;
+  box-shadow: inset 0 1px 1px 0 rgb(200 200 200 / 80%);
+  margin: 10px 0;
+}
+
+.form-grps span {
+  font-size: 13px;
+  color: #777;
 }
 
 /*--------------------------------
@@ -867,5 +890,10 @@ td {
 
   .btn-default {
     margin: 1rem 0;
+  }
+
+  /* personal details */
+  .form-grps input {
+    width: 100%;
   }
 }
