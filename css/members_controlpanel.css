@@ -611,6 +611,38 @@ td {
     rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 }
 
+.share-exp-content {
+  padding: 10px;
+  background: #eee;
+}
+
+.share-exp-content h5 {
+  color: #E46D12;
+}
+
+.share-exp-content p {
+  font-size: 13px;
+}
+
+.photo-box {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  margin: 2rem 0;
+}
+
+.upload-box h4 {
+  margin-bottom: 10px;
+}
+
+.upload-box input {
+  margin-bottom: 20px;
+}
+
+.img-file {
+  color: #cdcdcd;
+  border: 0;
+}
+
 /*--------------------------------
             Responsive
 --------------------------------*/
@@ -727,5 +759,10 @@ td {
 
   table tr {
     margin: 1rem 0;
+  }
+
+  /* testimonial */
+  .photo-box {
+    grid-template-columns: 1fr;
   }
 }
