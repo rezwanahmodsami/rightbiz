@@ -693,7 +693,32 @@ td {
   background: linear-gradient(to bottom, #33aa6c 0, #238150 100%);
 }
 
+/* account details */
 
+.email-sec,
+.password-sec,
+.form-grp {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #ededed;
+  padding: 1.5rem;
+  margin: 10px 0;
+}
+
+.email-sec p,
+.password-sec p {
+  font-size: 15px;
+}
+
+.form-grp a {
+  font-size: 14px;
+  color: #004677;
+}
+
+.form-grp a:hover {
+  text-decoration: underline;
+}
 
 /*--------------------------------
             Responsive
@@ -816,5 +841,18 @@ td {
   /* testimonial */
   .photo-box {
     grid-template-columns: 1fr;
+  }
+
+  /* account details */
+
+  .email-sec,
+  .password-sec,
+  .form-grp {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .btn-default {
+    margin: 1rem 0;
   }
 }
