@@ -725,6 +725,14 @@ td {
   text-decoration: underline;
 }
 
+/* personal details */
+
+.form-grps {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+}
+
 /*--------------------------------
             Responsive
 --------------------------------*/
