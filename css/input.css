@@ -30,7 +30,7 @@ body {
   outline: none;
   background: initial;
   color: #fff;
-  font-weight: 600;
+  font-size: 1rem;
 }
 
 .form__input:hover {
