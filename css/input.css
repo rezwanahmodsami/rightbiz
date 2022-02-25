@@ -39,6 +39,7 @@ body {
 
 .form__input:focus {
   border-color: #f39c12;
+  box-shadow: 0 0 0 4px #ff9d0036;
 }
 
 .form__label {
