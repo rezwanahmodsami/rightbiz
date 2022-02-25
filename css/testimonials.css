@@ -1,0 +1,69 @@
+@import url(./header-footer.css);
+
+.btn-green {
+  font-size: 14px;
+  border: 1px solid #1e7246;
+  background: linear-gradient(to bottom, #2d925d 0, #1e7246 100%);
+  color: var(--white);
+  text-align: center;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.btn-green:hover {
+  background: linear-gradient(to bottom, #33aa6c 0, #238150 100%);
+}
+
+#banner_hero {
+  background: #2074C0;
+}
+
+#banner_hero>.container {
+  background: url(../images/quotemark_large.png) no-repeat right;
+}
+
+.banner-text {
+  padding: 2rem 0;
+  color: var(--white);
+}
+
+.banner-text h1 {
+  font-size: 35px;
+}
+
+.banner-text p {
+  font-size: 15px;
+  margin-bottom: 1rem;
+}
+
+.testimonial-container {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  margin: 2rem 0;
+  grid-gap: 20px;
+}
+
+.testimonials-card {
+  display: flex;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.testimonials-card:hover {
+  box-shadow: 0 2px 3px 1px rgb(0 0 0 / 15%);
+}
+
+.testimonials-img {
+  margin-right: 10px;
+}
+
+.testimonials-content p {
+  font-size: 13px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .testimonial-container {
+    grid-template-columns: 1fr;
+  }
+}
