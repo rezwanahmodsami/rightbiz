@@ -1,0 +1,156 @@
+@import url(./header-footer.css);
+
+body {
+  background: var(--white-d-1);
+}
+
+a {
+  color: var(--blue);
+}
+
+.google-btn {
+  width: 100%;
+  background: #dd4b39;
+  border: 1px solid #d04230;
+  margin-bottom: 0.5rem;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.313rem;
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 600;
+  box-shadow: 0 2px 1px rgb(0 0 0 / 30%);
+}
+
+.facebook-btn {
+  width: 100%;
+  background: #3b5998;
+  border: 1px solid #3b5998;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.313rem;
+  color: var(--white);
+  font-size: 1rem;
+  font-weight: 600;
+  box-shadow: 0 2px 1px rgb(0 0 0 / 30%);
+  margin-bottom: 1rem;
+}
+
+.rules {
+  height: 1px;
+  background: var(--grey);
+  border: none;
+  margin: 1rem 0;
+}
+
+/*-----------------------
+      Banner section
+-----------------------*/
+
+.banner-section {
+  padding: 5rem 0 2rem 0;
+}
+
+.banner-content {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.banner-section h1 {
+  font-size: 2rem;
+}
+
+.error-alert {
+  border: 1px solid #f9a825;
+  border-radius: 0.313rem;
+}
+
+.error-title {
+  color: #f9a825;
+  padding: 0.625rem;
+}
+
+/*----------------------------
+  Creating account section
+----------------------------*/
+
+.creating-account-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 1.25rem;
+}
+
+.creating-account-wrapper>div {
+  background: var(--white);
+  border-radius: 0.313rem;
+  padding: 1rem;
+}
+
+.sign-in-content h3 {
+  color: var(--blue);
+  padding: 0 0 1rem 0;
+}
+
+.btn-container {
+  max-width: 250px;
+}
+
+.sign-in-container h3 {
+  color: var(--blue);
+  padding: 1rem 0;
+}
+
+.create-account-content h3 {
+  color: var(--blue);
+}
+
+.input-grp {
+  margin-bottom: 1rem;
+}
+
+.input-grp label {
+  display: inline-block;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+.input-grp input {
+  width: 100%;
+  padding: 0.75rem 1.25rem;
+  outline: none;
+  border: 1px solid var(--grey);
+  border-radius: 2rem;
+  background: var(--white);
+  transition-property: box-shadow,
+    border-color;
+  transition-duration: .2s;
+}
+
+.input-grp input:focus {
+  border: 1px solid var(--blue);
+  box-shadow: 0 0 0 4px var(--grey-blue-l-1);
+}
+
+.forgotten-link {
+  font-size: 13px;
+  color: var(--blue);
+  display: block;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.forgotten-link:hover {
+  text-decoration: underline;
+}
+
+.terms-condition {
+  padding: 10px;
+  margin: 2rem 0;
+  text-align: center;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 768px) {
+  .creating-account-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
