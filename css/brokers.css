@@ -11,7 +11,7 @@ a:hover {
 .wrapper {
   height: 100vh;
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 1fr 2fr;
 }
 
 .green-btn {
@@ -128,7 +128,8 @@ input[type=submit]:hover {
 
 @media only screen and (max-width: 992px) {
   .wrapper {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
 
