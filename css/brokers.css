@@ -1,0 +1,124 @@
+@import url(./header-footer.css);
+
+a {
+  color: #004677;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.wrapper {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.green-btn {
+  background: linear-gradient(to bottom, #2d925d 0, #1e7246 100%);
+  padding: 15px 40px;
+  border: 1px solid #1e7246;
+  border-radius: 3px;
+  font-size: 1rem;
+  color: var(--white);
+  font-weight: 600;
+}
+
+.green-btn:hover {
+  background: linear-gradient(to bottom, #33aa6c 0, #238150 100%);
+}
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-content {
+  padding: 3rem;
+}
+
+.register-content h2 {
+  margin-bottom: 2rem;
+}
+
+
+.sign-in-container {
+  background: var(--grey);
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign-in-content {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sign-in-content img {
+  width: 150px;
+  margin: 2rem 0;
+}
+
+.form-grp-container {
+  background: var(--white);
+  padding: 4rem 2rem;
+}
+
+.form-grp-container h2 {
+  text-align: center;
+  margin: 1rem 0;
+  font-weight: 500;
+}
+
+.input-grp {
+  margin-bottom: 1rem;
+}
+
+.input-grp label {
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.input-field {
+  width: 100%;
+  padding: 5px;
+  font-size: 1rem;
+  outline: none;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+.input-field:focus {
+  border-color: #66afe9;
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%),
+    0 0 8px rgb(102 175 233 / 60%);
+}
+
+.forgot-pass-link {
+  display: block;
+  text-align: right;
+  font-size: 14px;
+  color: #004677;
+  margin-top: 5px;
+}
+
+.forgot-pass-link:hover {
+  text-decoration: underline;
+}
+
+input[type=submit] {
+  background: linear-gradient(to bottom, #0088eb 0, #006ebe 100%);
+  border: none;
+  color: var(--white);
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+input[type=submit]:hover {
+  background: #0088eb;
+}
