@@ -128,8 +128,11 @@ input[type=submit]:hover {
 
 @media only screen and (max-width: 992px) {
   .wrapper {
-    display: flex;
-    flex-direction: column-reverse;
+    grid-template-columns: 1fr;
+  }
+
+  .sign-in-container {
+    grid-row-start: 1;
   }
 }
 
