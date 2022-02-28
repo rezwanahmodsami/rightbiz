@@ -39,6 +39,7 @@ a:hover {
 }
 
 .register-content h2 {
+  font-weight: 500;
   margin-bottom: 2rem;
 }
 
@@ -121,4 +122,27 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background: #0088eb;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 992px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .sign-in-container {
+    display: flex;
+    align-items: center;
+  }
+
+  .sign-in-content {
+    width: 100%;
+  }
+
+  .form-grp-container {
+    padding: 4rem 1rem;
+  }
 }
