@@ -37,3 +37,114 @@
   margin-top: 1rem;
   font-size: 1rem;
 }
+
+/*-----------------------------
+      Card body section
+-----------------------------*/
+
+.card-body-section {
+  padding: 3rem 0;
+}
+
+.card-title {
+  text-align: center;
+}
+
+.card-title h1 {
+  font-weight: 500;
+  font-size: 36px;
+}
+
+.card-title p {
+  font-size: 25px;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+table {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  box-shadow: 0 3px 8px rgb(0 0 0 / 15%);
+}
+
+table,
+th,
+td {
+  border: 1px solid #ccc;
+}
+
+.desc_row {
+  padding: 1rem;
+  color: #555;
+  cursor: pointer;
+}
+
+.desc-title {
+  padding: 1rem 0;
+}
+
+.premium_badge {
+  width: 120px;
+}
+
+.package-price {
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.pack_price {
+  color: #e20000;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.package_name {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.package_duration {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.package_month_price {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.btn-premium {
+  padding: 5px 20px;
+  border: 1px solid #ffa400;
+  background: linear-gradient(to bottom, #ffca28 0, #ffa000 100%);
+  color: #111;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-premium:hover {
+  border-color: #f39c00;
+  background: linear-gradient(to bottom, #ffca3a 0, #fb8109 100%);
+}
+
+.free-account {
+  border: 2px solid #000;
+  margin-top: 3rem;
+  padding: 20px;
+  text-align: center;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.free-account a {
+  color: #004677;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.free-account a:hover {
+  text-decoration: underline;
+}
