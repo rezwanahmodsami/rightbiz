@@ -285,4 +285,8 @@ input[type=range]:focus::-ms-fill-upper {
   .monthly-pricing-container {
     grid-template-columns: 1fr;
   }
+
+  .monthly-pricing-header ul {
+    display: none;
+  }
 }
