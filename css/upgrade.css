@@ -175,3 +175,32 @@ td {
 .advantage-box p {
   color: var(--white);
 }
+
+/* benefit section */
+
+.benefit-section {
+  padding: 3rem 0;
+}
+
+.benefit-container h2 {
+  padding: 1rem 0;
+  color: #005da2;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.benefit-content-box {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.img-box {
+  margin-right: 20px;
+}
+
+.benefit-desc p {
+  color: #3c4146;
+  font-size: 14px;
+  margin-top: 5px;
+}
