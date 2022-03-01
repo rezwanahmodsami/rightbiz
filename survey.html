@@ -10,84 +10,86 @@
 </head>
 
 <body>
-  <!-- Banner section -->
-  <section class="banner-section">
+  <section class="survey-section">
     <div class="container">
-      <div class="banner-content">
-        <img src="./images/logo-original.png" alt="rightbiz">
-        <h1>UK's Largest Business For Sale Marketplace</h1>
-      </div>
-      <div class="error-alert">
-        <div class="error-title">
-          <h3>To protect our members like you, you must log into your Rightbiz members account or register for a new
-            account.</h3>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Creating account or login section -->
-  <section class="creating-account-container">
-    <div class="container">
-      <div class="creating-account-wrapper">
-        <div class="sign-in-content">
-          <h3>Sign in or Sign up with social media</h3>
-          <div class="btn-container">
-            <button class="google-btn">Continue with Google</button>
-            <button class="facebook-btn">Continue with Facebook</button>
-          </div>
-          <hr class="rules">
-          <div class="sign-in-container">
-            <h3>Sign in with your email</h3>
-            <form action="#">
-              <div class="input-grp">
-                <label for="email">Email</label>
-                <br>
-                <input type="email" name="" id="email">
-              </div>
-              <div class="input-grp">
-                <label for="password">Password</label>
-                <br>
-                <input type="password" name="" id="password">
-                <br>
-                <a class="forgotten-link" s href="#">Forgotten Password?</a>
-              </div>
-              <br>
-              <input class="btn btn-blue" type="submit" value="Login">
-            </form>
-          </div>
-        </div>
-        <div class="create-account-content">
-          <h3>Create your free account</h3>
-          <div class="input-grp">
-            <label for="f-name">First Name</label>
-            <br>
-            <input placeholder="Enter you first name" type="text" name="" id="f-name">
-          </div>
-          <div class="input-grp">
-            <label for="l-name">Last Name</label>
-            <br>
-            <input placeholder="Enter your last name" type="text" name="" id="l-name">
-          </div>
-          <div class="input-grp">
-            <label for="email-address">Email Address</label>
-            <br>
-            <input placeholder="Enter your email" type="email" name="" id="email-address">
-          </div>
-          <div class="input-grp">
-            <label for="create-password">Create a password</label>
-            <br>
-            <input placeholder="Enter your password" type="password" name="" id="create-password">
-          </div>
-          <div class="input-grp">
-            <label for="contact">Contact</label>
-            <br>
-            <input placeholder="Enter your phone or telephone" type="text" name="" id="contact">
-          </div>
-        </div>
-      </div>
-      <h6 class="terms-condition">By continuing, you agree to our <a href="#">Terms & Conditions</a> and <a
-          href="#">Privacy Policy</a>.</h6>
+      <h1>A 30 second survey on the Premium Buyer service</h1>
+      <form class="survey-form" action="#">
+        <h2>Which of the following is most and least important to you?</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Least Important</th>
+              <th></th>
+              <th>Most Important</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="data-col-1">
+                <input type="radio" name="least_important" id="">
+              </td>
+              <td class="data-col-2">
+                <h4>Distressed Business</h4>
+                <p>Find companies before they dissolve. Get financials, company details and practioner details.</p>
+              </td>
+              <td class="data-col-3">
+                <input type="radio" name="most_important" id="">
+              </td>
+            </tr>
+            <tr>
+              <td class="data-col-1">
+                <input type="radio" name="least_important" id="">
+              </td>
+              <td class="data-col-2">
+                <h4>Contact Sellers Directly</h4>
+                <p>Get seller's direct contact details, such as contact telephone number or email.</p>
+              </td>
+              <td class="data-col-3">
+                <input type="radio" name="most_important" id="">
+              </td>
+            </tr>
+            <tr>
+              <td class="data-col-1">
+                <input type="radio" name="least_important" id="">
+              </td>
+              <td class="data-col-2">
+                <h4>Access to Google Streetmap</h4>
+                <p>Google Maps and Street View lets you explore the area around the business and see if it is ideal for
+                  you.</p>
+              </td>
+              <td class="data-col-3">
+                <input type="radio" name="most_important" id="">
+              </td>
+            </tr>
+            <tr>
+              <td class="data-col-1">
+                <input type="radio" name="least_important" id="">
+              </td>
+              <td class="data-col-2">
+                <h4>Stick out from other buyers</h4>
+                <p>All of your enquiries will be highlighted as "Premium Buyer". Let sellers know you're a serious buyer
+                  andget priority over free members.</p>
+              </td>
+              <td class="data-col-3">
+                <input type="radio" name="most_important" id="">
+              </td>
+            </tr>
+            <tr>
+              <td class="data-col-1">
+                <input type="radio" name="least_important" id="">
+              </td>
+              <td class="data-col-2">
+                <h4>Prioritised Customer Support</h4>
+                <p>At Rightbiz we make it our first priority to give our Premium Buyers the most upmost user-experience
+                  byprioritising your messages over our thousands of customers.</p>
+              </td>
+              <td class="data-col-3">
+                <input type="radio" name="most_important" id="">
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </form>
     </div>
   </section>
 </body>
