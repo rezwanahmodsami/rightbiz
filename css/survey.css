@@ -16,44 +16,60 @@ section {
 
 .survey-form {
   background: var(--white);
-  padding: 1rem 1rem 0;
+  padding: 1rem;
   box-shadow: 0 1px 1px 1px rgb(0 0 0 / 10%);
   border-radius: 3px;
 }
 
-.survey-form h2 {
+.survey-header h2 {
   font-weight: 500;
 }
 
-tr {
-  margin: 10px 0;
+.survey-title {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0;
 }
 
-th,
-td {
-  padding: 2rem;
+.survey-title h3 {
+  font-weight: 500;
+}
+
+.survey-body-container {
+  display: grid;
+  grid-template-columns: 1fr 5fr 1fr;
+  margin: 1rem 0;
   border-bottom: 1px solid #ccc;
 }
 
-.data-col-1,
-.data-col-3 {
-  width: 20%;
+.survey-body-container:last-child {
+  border-bottom: none;
+}
+
+.col-data-1,
+.col-data-2,
+.col-data-3 {
+  padding: 10px;
+}
+
+.col-data-1,
+.col-data-3 {
   text-align: center;
 }
 
-.data-col-1 input,
-.data-col-3 input {
-  width: 18px;
-  height: 18px;
+.col-data-1 input,
+.col-data-3 input {
+  width: 16px;
+  height: 16px;
 }
 
-.data-col-2 h4 {
-  margin: 10px 0;
+.survey-body-container h3 {
   text-align: center;
+  margin-bottom: 10px;
 }
 
-.data-col-2 p {
-  font-size: 15px;
+.survey-body-container p {
+  font-size: 1rem;
 }
 
 /* Monthly pricing section */
@@ -252,4 +268,21 @@ input[type=range]:focus::-ms-fill-upper {
   color: var(--white);
   cursor: pointer;
   border-radius: 3px;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 768px) {
+
+  .container {
+    padding: 0;
+  }
+
+  .survey-body-container h3 {
+    text-align: left;
+  }
+
+  .monthly-pricing-container {
+    grid-template-columns: 1fr;
+  }
 }
