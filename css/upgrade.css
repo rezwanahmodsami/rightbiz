@@ -237,3 +237,28 @@ td {
 .sell-img-box img {
   width: 100%;
 }
+
+/* Responsive */
+
+@media only screen and (max-width: 992px) {
+  .banner-stats {
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 10px;
+  }
+
+  .advantage-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .benefit-content-box {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sell-content {
+    grid-template-columns: repeat(2, 1fr);
+    grid-row-gap: 10px;
+  }
+}
