@@ -204,3 +204,36 @@ td {
   font-size: 14px;
   margin-top: 5px;
 }
+
+/* Sell section */
+
+.sell-container {
+  background: url(../images/premium/sell-map.jpg) no-repeat center / cover;
+  padding: 3rem 0;
+}
+
+.sell-title {
+  text-align: center;
+}
+
+.sell-title h2 {
+  color: #004677;
+  font-weight: 500;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.sell-title p {
+  font-size: 24px;
+}
+
+.sell-content {
+  margin-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 20px 10px;
+}
+
+.sell-img-box img {
+  width: 100%;
+}
