@@ -115,6 +115,99 @@ html {
   font-size: 14px;
 }
 
+/* Talk franchise */
+.talk-franchise-section {
+  padding: 5rem 0;
+}
+
+.header-title h2 {
+  font-size: 2.5em;
+  font-weight: 500;
+}
+
+.header-title {
+  text-align: center;
+}
+
+.form-btn-grp {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.form-btn {
+  padding: 3rem 5rem;
+  border-radius: 3px;
+  margin: 0 1rem;
+  border: 1px solid #ccc;
+  background: var(--white);
+  color: #ccc;
+  cursor: pointer;
+}
+
+.form-btn:hover {
+  color: var(--black);
+  border-color: var(--black);
+}
+
+.form-btn h2 {
+  font-weight: 500;
+}
+
+.form-btn p {
+  font-size: 1rem;
+}
+
+.started-form {
+  max-width: 800px;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.input-grp {
+  margin: 20px 0;
+}
+
+.input-grp label::after {
+  content: '*';
+  color: red;
+}
+
+.input-grp input {
+  width: 100%;
+  padding: 6px 12px;
+  outline: none;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  height: 50px;
+}
+
+.input-grp input:focus {
+  border-color: #66afe9;
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%),
+    0 0 8px rgb(102 175 233 / 60%);
+}
+
+.input-grp select {
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  transition: border-color ease-in-out .15s,
+    box-shadow ease-in-out .15s;
+}
+
+input[type=submit] {
+  padding: 10px 20px;
+}
+
 /* Franchise logo */
 
 .logo-container {
