@@ -1,0 +1,39 @@
+@import url(./header-footer.css);
+
+img {
+  width: 100%;
+}
+
+/*----------------------
+      Hero Section
+----------------------*/
+
+.hero-section {
+  padding: 3rem 0;
+  height: 100%;
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.hero-title {
+  font-size: 4.5rem;
+  font-weight: 500;
+}
+
+.hero-rating {
+  max-width: 420px;
+}
+
+.hero-rating img {
+  width: 150px;
+  margin-top: 50px;
+}
+
+.hero-rating p {
+  color: #777;
+  font-size: 14px;
+}
