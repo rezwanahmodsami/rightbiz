@@ -37,3 +37,119 @@ img {
   color: #777;
   font-size: 14px;
 }
+
+/*-------------------------
+      Benefit section
+-------------------------*/
+
+.benefit-section {
+  padding: 10rem 0;
+}
+
+.benefit-title {
+  text-align: center;
+}
+
+.benefit-title>div {
+  max-width: 715px;
+  margin: auto;
+}
+
+.benefit-title h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin: 1rem 0;
+}
+
+.benefit-title p {
+  font-size: 15px;
+}
+
+.items {
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  justify-content: center;
+  grid-gap: 50px;
+  padding: 3rem 0;
+}
+
+.items .item-box {
+  width: 300px;
+  box-shadow: 0 1px 5px 2px rgb(100 100 100 / 10%);
+  text-align: center;
+  margin: auto;
+  padding: 4.375rem 1.875rem;
+  border-radius: 0.938rem;
+  background: var(--white);
+}
+
+.items .item-box img {
+  width: 60px;
+}
+
+.items .item-box h3 {
+  font-weight: 500;
+  padding: 0.626rem 0;
+}
+
+.items .item-box p {
+  color: #777;
+  font-size: 14px;
+}
+
+/* Franchise logo */
+
+.logo-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 10px;
+  margin: 50px;
+}
+
+.logo-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.logo-container>div {
+  margin: auto;
+}
+
+.logo-container>div img {
+  width: 150px;
+}
+
+/* Trial section start here */
+.trial-section {
+  background: #ebeced;
+  padding: 5rem 0;
+}
+
+.trial-section-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
+}
+
+.trial-benefit-container {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.trial-content-box h2 {
+  font-size: 2.7rem;
+  font-weight: 500;
+}
+
+.trial-benefit-content {
+  text-align: center;
+}
+
+.trial-benefit-content img {
+  width: 80px;
+}
+
+.trial-benefit-content p {
+  font-size: 15px;
+}
