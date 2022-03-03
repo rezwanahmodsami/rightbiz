@@ -4,6 +4,10 @@ img {
   width: 100%;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 /*----------------------
       Hero Section
 ----------------------*/
@@ -55,6 +59,7 @@ img {
   background: #2464b3;
   transform: rotate(-1.25deg);
   z-index: -2;
+  overflow-x: hidden;
 }
 
 .benefit-title {
