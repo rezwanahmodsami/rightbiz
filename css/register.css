@@ -48,6 +48,7 @@ html {
 
 .benefit-section {
   padding: 10rem 0;
+  overflow-x: hidden;
 }
 
 #hero-blue {
@@ -59,7 +60,6 @@ html {
   background: #2464b3;
   transform: rotate(-1.25deg);
   z-index: -2;
-  overflow-x: hidden;
 }
 
 .benefit-title {
@@ -190,4 +190,41 @@ html {
 .faq-content-box p {
   font-size: 15px;
   margin-top: 5px;
+}
+
+/* Responsive */
+
+@media only screen and (max-width: 768px) {
+  .hero-container {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-banner-img {
+    display: none;
+  }
+
+  /* logo */
+  .logo-container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* trial */
+  .trial-section-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #hero-blue {
+    padding-top: 1rem;
+    height: 450px;
+  }
+
+  .items {
+    grid-template-columns: 1fr;
+  }
+
+  .logo-container {
+    grid-template-columns: 1fr;
+  }
 }
