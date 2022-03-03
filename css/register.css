@@ -46,8 +46,21 @@ img {
   padding: 10rem 0;
 }
 
+#hero-blue {
+  position: absolute;
+  bottom: 0px px;
+  left: -4vw;
+  height: 400px;
+  width: 105vw;
+  background: #2464b3;
+  transform: rotate(-1.25deg);
+  z-index: -2;
+}
+
 .benefit-title {
+  color: var(--white);
   text-align: center;
+  padding-top: 5rem;
 }
 
 .benefit-title>div {
