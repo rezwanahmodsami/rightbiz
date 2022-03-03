@@ -163,6 +163,10 @@ html {
   margin-top: 3rem;
 }
 
+#callback-form {
+  display: none;
+}
+
 .input-grp {
   margin: 20px 0;
 }

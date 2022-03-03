@@ -143,18 +143,18 @@
             started.</p>
         </div>
         <div class="form-btn-grp">
-          <button class="form-btn">
+          <button class="form-btn" id="started-btn" onclick="getStarted()">
             <h2>Get Started</h2>
             <p>Start advertising within 5 Minutes <br>
               create your Rightbiz franchise account</p>
           </button>
-          <button class="form-btn">
+          <button class="form-btn" id="request-btn" onclick="requestCallback()">
             <h2>Request A Callback</h2>
             <p>Our team can help you build <br>
               your advert or answer any enquiries</p>
           </button>
         </div>
-        <form class="started-form" action="#">
+        <form class="started-form" id="started-form" action="#">
           <div class="input-grp">
             <label for="franchise-name">Your Franchise Name</label>
             <br>
@@ -196,6 +196,24 @@
             </select>
           </div>
           <input class="btn-green2" type="submit" value="Register">
+        </form>
+        <form class="started-form" id="callback-form" action="#">
+          <div class="input-grp">
+            <label for="your-name">Your Name</label>
+            <br>
+            <input type="text" name="" id="your-name">
+          </div>
+          <div class="input-grp">
+            <label for="your-contact-number">Your Contact Number</label>
+            <br>
+            <input type="text" name="" id="your-contact-number">
+          </div>
+          <div class="input-grp">
+            <label for="your-email">Your Email</label>
+            <br>
+            <input type="text" name="" id="your-email">
+          </div>
+          <input class="btn-green2" type="submit" value="Request Callback">
         </form>
       </div>
     </div>
@@ -245,6 +263,8 @@
   </section>
   <!-- FAQ section end here -->
 
+  <!-- Javascript -->
+  <script src="../js/index.js"></script>
 </body>
 
 </html>
