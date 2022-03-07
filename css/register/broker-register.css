@@ -118,3 +118,62 @@ img {
 .users-img-container {
   margin: 3rem 0;
 }
+
+/* Creating user section */
+.creating-section {
+  padding: 4rem 0;
+}
+
+.creating-intro h3 {
+  font-weight: 500;
+}
+
+.creating-intro p {
+  font-size: 14px;
+}
+
+.form-container {
+  margin-top: 1rem;
+}
+
+.account-details-container {
+  display: grid;
+  grid-template-columns: 1fr 10fr;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 1rem;
+}
+
+.input-container {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.input-grp {
+  margin: 0 10px;
+}
+
+.fa-buildings,
+.fa-address-book {
+  color: var(--blue);
+}
+
+.input-grp label {
+  margin-left: 15px;
+}
+
+.input-grp input {
+  border: 1px solid #ccc;
+  padding: 5px 15px;
+  outline: none;
+  border-radius: 30px;
+}
+
+.captcha {
+  margin-top: 1rem;
+}
+
+.captcha img {
+  width: 250px;
+}
