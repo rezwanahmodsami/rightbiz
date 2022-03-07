@@ -1,11 +1,20 @@
 @import url(../header-footer.css);
 
+img {
+  width: 100%;
+}
+
 .btn {
   margin: auto;
 }
 
 .heading-title {
   text-align: center;
+}
+
+.heading-title h2 {
+  padding: 20px 0;
+  font-weight: 500;
 }
 
 /* Hero section */
@@ -53,4 +62,23 @@
 .fa-solid {
   color: var(--green);
   margin: 20px 0;
+}
+
+/* growth section */
+.growth-container {
+  padding: 2rem 0;
+}
+
+.growth-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+}
+
+.growth-img-container {
+  margin: auto;
+}
+
+.growth-img {
+  width: 150px;
 }
