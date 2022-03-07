@@ -13,8 +13,12 @@ img {
 }
 
 .heading-title h2 {
-  padding: 20px 0;
+  font-size: 2rem;
   font-weight: 500;
+}
+
+.heading-title p {
+  font-size: 14px;
 }
 
 /* Hero section */
@@ -42,6 +46,7 @@ img {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 10px;
+  margin-top: 2rem;
 }
 
 .card-body {
@@ -66,13 +71,14 @@ img {
 
 /* growth section */
 .growth-container {
-  padding: 2rem 0;
+  padding: 4rem 0;
 }
 
 .growth-content {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 10px;
+  margin: 2rem 0;
 }
 
 .growth-img-container {
@@ -81,4 +87,25 @@ img {
 
 .growth-img {
   width: 150px;
+}
+
+/* Pricing section */
+.pricing-container {
+  padding: 4rem 0;
+  background: var(--blue);
+  color: var(--white);
+}
+
+.pricing-content {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.pricing-content h2 {
+  font-size: 64px;
+  font-weight: 500;
+}
+
+.pricing-content p {
+  font-size: 13px;
 }
