@@ -177,3 +177,31 @@ img {
 .captcha img {
   width: 250px;
 }
+
+.agreement-section {
+  margin: 2rem 0;
+}
+
+.agreement-section ul li {
+  margin-left: 20px;
+  list-style: disc;
+  color: var(--blue);
+}
+
+.agreement-section ul li p {
+  font-size: 14px;
+  color: var(--black);
+}
+
+.btn-content {
+  text-align: left;
+}
+
+.btn-content .btn {
+  margin: inherit;
+}
+
+.btn-content p {
+  font-size: 14px;
+  margin-top: 10px;
+}
