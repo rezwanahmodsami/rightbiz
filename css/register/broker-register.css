@@ -109,3 +109,12 @@ img {
 .pricing-content p {
   font-size: 13px;
 }
+
+/* Users section */
+.users-container {
+  padding: 4rem 0;
+}
+
+.users-img-container {
+  margin: 3rem 0;
+}
