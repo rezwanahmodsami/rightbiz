@@ -23,7 +23,10 @@ img {
 
 /* Hero section */
 .hero-container {
-  padding: 5rem 0;
+  padding: 5rem 0 2rem 0;
+}
+
+.hero-content {
   text-align: center;
 }
 
@@ -34,6 +37,51 @@ img {
 
 .hero-container p {
   margin-bottom: 15px;
+}
+
+/* Testimonial */
+.testimonial-container {
+  width: 100%;
+  max-width: 650px;
+  margin: auto;
+  margin-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 10px;
+  padding: 40px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  z-index: 10;
+  background: var(--white);
+}
+
+.testimonial-img {
+  margin: auto;
+}
+
+.testimonial-img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.testimonial-details h4 {
+  display: inline-block;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.testimonial-details p {
+  font-size: 15px;
+}
+
+.user-name {
+  color: var(--blue);
+}
+
+.link-name {
+  color: var(--blue);
 }
 
 /* Marketplace section */
@@ -219,5 +267,15 @@ img {
 
   .input-container {
     flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .testimonial-container {
+    grid-template-columns: 1fr;
+  }
+
+  .testimonial-img {
+    margin-bottom: 1rem;
   }
 }
