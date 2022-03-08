@@ -1,0 +1,40 @@
+@import url(./header-footer.css);
+
+img {
+  width: 100%;
+}
+
+.banner-container {
+  background: var(--blue);
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.banner-container h1 {
+  color: var(--white);
+  margin-bottom: 1rem;
+}
+
+.banner-container .btn {
+  margin: auto;
+}
+
+/* Logo section */
+.logo-container {
+  padding: 2rem 0;
+  background: var(--grey);
+}
+
+.logo-body-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+}
+
+.logo-content {
+  margin: auto;
+}
+
+.logo-content img {
+  width: 150px;
+}
