@@ -1069,6 +1069,10 @@ td {
   margin: 8px 0;
 }
 
+.fav-heading p {
+  color: var(--green);
+}
+
 .search-result h2 {
   font-weight: 500;
 }
