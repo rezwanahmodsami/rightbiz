@@ -72,3 +72,51 @@ img {
 .details h3 {
   margin-bottom: 1rem;
 }
+
+/* Sell section */
+.sell-section {
+  padding: 2rem 0;
+}
+
+.heading {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.heading h2 {
+  font-size: 2.5rem;
+}
+
+.sell-form input,
+select {
+  width: 100%;
+  padding: 10px 20px;
+  background: var(--white);
+  border: 1px solid var(--grey);
+  border-radius: 2rem;
+  outline: none;
+}
+
+.waring {
+  color: var(--red);
+  font-style: italic;
+  margin: 1rem 0;
+}
+
+.recaptcha {
+  width: 250px;
+  margin: 1rem 0;
+}
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+  .logo-body-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .logo-body-content {
+    grid-template-columns: 1fr;
+  }
+}
