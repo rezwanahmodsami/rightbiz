@@ -281,4 +281,8 @@ img {
   .testimonial-img {
     margin-bottom: 1rem;
   }
+
+  .m-card-container {
+    grid-template-columns: 1fr;
+  }
 }
