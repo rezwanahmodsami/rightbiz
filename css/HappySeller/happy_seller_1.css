@@ -4,6 +4,12 @@ img {
   width: 100%;
 }
 
+.details-link {
+  color: var(--blue);
+  display: inline-block;
+  margin-top: 1rem;
+}
+
 .banner-section {
   background: url(../../images/Happy_Seller_Image/bg.webp) no-repeat center / cover;
   padding: 7rem 0;
@@ -58,6 +64,9 @@ img {
 }
 
 /* Advert section */
+.advert-container {
+  padding: 3rem 0;
+}
 
 .advert-header {
   color: var(--blue);
@@ -98,8 +107,22 @@ img {
   margin: 1rem 0;
 }
 
+.freehold-box {
+  background: var(--blue);
+  padding-bottom: 10px;
+  border-radius: 5px 0 0 5px;
+  overflow: hidden;
+}
+
+.freehold-box h2 {
+  padding: 0 10px;
+  color: var(--white);
+}
+
 .heading-title h2 {
   color: var(--blue);
+  font-size: 35px;
+  font-weight: 500;
 }
 
 .using-image-content {
@@ -107,4 +130,32 @@ img {
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 20px;
   padding-top: 2rem;
+}
+
+/* use ads */
+.ads-container {
+  padding: 3rem 0;
+}
+
+
+.ads-content-container {
+  margin: 1rem 0;
+}
+
+/* ads */
+.ads-box-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+.btn-container {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.btn-container button {
+  margin-right: 10px;
 }
