@@ -39,6 +39,7 @@ img {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
+  grid-gap: 20px;
 }
 
 .stats-content {
@@ -146,7 +147,7 @@ img {
 .ads-box-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-column-gap: 20px;
+  grid-gap: 20px;
   align-items: center;
   padding-top: 3rem;
 }
@@ -191,4 +192,32 @@ img {
 
 .sell-business-section .btn {
   margin: auto;
+}
+
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+  .stats-container {
+    grid-template-columns: 1fr;
+  }
+
+  .stats-content {
+    margin: 1rem 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .ads-box-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .using-image-content {
+    grid-template-columns: 1fr;
+  }
+
+  .ads-desc-container {
+    grid-template-columns: 1fr;
+  }
 }
