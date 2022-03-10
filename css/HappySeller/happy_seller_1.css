@@ -237,6 +237,14 @@ img {
     font-size: 20px;
   }
 
+  .stats-section {
+    padding: 3rem 0;
+  }
+
+  .using-images-container {
+    padding: 3rem 0;
+  }
+
   .using-image-content {
     grid-template-columns: 1fr;
   }
@@ -247,5 +255,9 @@ img {
 
   .freehold-box {
     border-radius: 0;
+  }
+
+  .sell-business-section {
+    padding: 3rem 0;
   }
 }
