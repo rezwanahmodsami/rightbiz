@@ -90,6 +90,7 @@ img {
 /* Using advert image */
 .using-images-container {
   padding: 5rem 0;
+  background: var(--white-d-1);
 }
 
 .heading-title {
