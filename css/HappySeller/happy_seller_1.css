@@ -159,3 +159,18 @@ img {
 .btn-container button {
   margin-right: 10px;
 }
+
+.ads-desc-container {
+  margin: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.ads-desc-content {
+  margin: 2rem 0;
+}
+
+.ads-desc-content h2 {
+  font-weight: 500;
+}
