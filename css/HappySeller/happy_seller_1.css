@@ -11,7 +11,8 @@ img {
 }
 
 .banner-section {
-  background: url(../../images/Happy_Seller_Image/bg.webp) no-repeat center / cover;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../../images/Happy_Seller_Image/bg.webp) no-repeat center / cover;
   padding: 3rem 0;
 }
 
