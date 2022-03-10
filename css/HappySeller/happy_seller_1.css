@@ -124,6 +124,15 @@ img {
   color: var(--white);
 }
 
+.location {
+  color: var(--green);
+}
+
+.time-remaning {
+  color: var(--grey-d-1);
+  margin-top: 5px;
+}
+
 .heading-title h2 {
   color: var(--blue);
   font-size: 35px;
@@ -234,5 +243,9 @@ img {
 
   .ads-desc-container {
     grid-template-columns: 1fr;
+  }
+
+  .freehold-box {
+    border-radius: 0;
   }
 }
