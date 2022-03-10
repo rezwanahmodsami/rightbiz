@@ -174,3 +174,21 @@ img {
 .ads-desc-content h2 {
   font-weight: 500;
 }
+
+
+/* Sell business */
+.sell-business-section {
+  padding: 5rem 0;
+  background: var(--white-d-1);
+  text-align: center;
+}
+
+.sell-business-section h2 {
+  padding: 1rem 0;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+.sell-business-section .btn {
+  margin: auto;
+}
