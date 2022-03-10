@@ -12,7 +12,7 @@ img {
 
 .banner-section {
   background: url(../../images/Happy_Seller_Image/bg.webp) no-repeat center / cover;
-  padding: 7rem 0;
+  padding: 3rem 0;
 }
 
 .banner-content {
@@ -216,6 +216,18 @@ img {
 }
 
 @media only screen and (max-width: 600px) {
+  .banner-section {
+    padding: 1rem 0;
+  }
+
+  .banner-content h1 {
+    font-size: 2rem;
+  }
+
+  .banner-content p {
+    font-size: 20px;
+  }
+
   .using-image-content {
     grid-template-columns: 1fr;
   }
