@@ -18,3 +18,37 @@
   font-size: 2rem;
   margin-top: 1rem;
 }
+
+/* Stats section */
+.stats-section {
+  padding: 5rem 0;
+  background: var(--white-d-1);
+}
+
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+
+.stats-content {
+  display: flex;
+}
+
+.icon-section i {
+  font-size: 3.5rem;
+}
+
+.stats {
+  margin-left: 15px;
+}
+
+.stats h2 {
+  color: var(--green-d-1);
+  font-size: 37px;
+}
+
+.stats span {
+  color: #777;
+  font-size: 20px;
+}
