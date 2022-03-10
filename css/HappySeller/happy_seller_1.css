@@ -1,7 +1,11 @@
 @import url(../header-footer.css);
 
+img {
+  width: 100%;
+}
+
 .banner-section {
-  background: url(../../images/Happy_Seller_Image/1.webp) no-repeat center / cover;
+  background: url(../../images/Happy_Seller_Image/bg.webp) no-repeat center / cover;
   padding: 7rem 0;
 }
 
@@ -51,4 +55,55 @@
 .stats span {
   color: #777;
   font-size: 20px;
+}
+
+/* Advert section */
+
+.advert-header {
+  color: var(--blue);
+  text-align: center;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+.advert-content {
+  margin: 3rem 0;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-column-gap: 10px;
+}
+
+.advert-icon i {
+  width: 85px;
+  font-size: 4rem
+}
+
+.advert-ul {
+  margin-top: 2rem;
+}
+
+.advert-ul li {
+  margin-left: 1rem;
+  list-style-type: disc;
+}
+
+/* Using advert image */
+.using-images-container {
+  padding: 5rem 0;
+}
+
+.heading-title {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.heading-title h2 {
+  color: var(--blue);
+}
+
+.using-image-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  padding-top: 2rem;
 }
