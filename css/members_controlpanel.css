@@ -54,7 +54,7 @@
 
 .header-title {
   padding: 2rem;
-  background: #eee;
+  background: var(--white-d-1);
 }
 
 .header-title p {
