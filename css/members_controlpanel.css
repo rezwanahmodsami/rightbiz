@@ -904,10 +904,18 @@ td {
     rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 } */
 
+.details-type p {
+  margin-bottom: 0;
+}
+
+.details-type span {
+  font-size: 14px;
+}
+
 .advert-content {
   border: 1px solid #ccc;
   margin-top: 2rem;
-  padding: 1.5rem 0.625rem;
+  padding: 2rem 1.3rem;
   border-radius: 0.313rem;
 }
 
@@ -950,7 +958,7 @@ td {
 
 .adverts-social-link ul li {
   display: inline-block;
-  margin: 0 0.188rem;
+  margin: 0 1rem;
 }
 
 /* upgrade counter */
@@ -1012,6 +1020,15 @@ td {
 .last-enquiries>p {
   font-weight: 600;
   margin-bottom: 5px;
+}
+
+.views-box>span,
+.last-views-box>span,
+.intrest-box>span,
+.details-updated>span,
+.enquiries-box>span,
+.last-enquiries>span {
+  font-size: 14px;
 }
 
 .confidential-btn {
