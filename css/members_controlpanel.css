@@ -903,6 +903,12 @@ td {
     rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
     rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
 } */
+.details-type,
+.views-box,
+.intrest-box,
+.enquiries-box {
+  margin-bottom: 1rem;
+}
 
 .details-type p {
   margin-bottom: 0;
@@ -1006,10 +1012,18 @@ td {
   margin-top: 2rem;
 }
 
+.advert-details-container h2 {
+  margin-bottom: 1rem;
+}
+
 .advert-details-box {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column-gap: 20px;
+}
+
+.details-updated {
+  padding-top: 10px;
 }
 
 .views-box>p,
