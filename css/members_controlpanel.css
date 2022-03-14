@@ -540,6 +540,14 @@ td {
   font-weight: 400;
 }
 
+.advert-ul {}
+
+/* .advert-li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
 .business-ads-container {
   display: grid;
   grid-template-columns: 25% 75%;
@@ -999,9 +1007,27 @@ td {
   margin-top: 0.625rem;
 }
 
-.adverts-social-link ul li {
-  display: inline-block;
+.adverts-social-link ul {
+  display: flex;
+}
+
+.adverts-social-link ul .advert-li {
   margin: 0 1rem;
+  border: 1px solid var(--grey-d-1);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.adverts-social-link ul .advert-li:first-child {
+  border: 0;
+}
+
+.adverts-social-link ul .advert-li a {
+  line-height: 10px;
 }
 
 /* upgrade counter */
