@@ -1086,6 +1086,14 @@ td {
 }
 
 .details-updated {
+  padding-top: 18px;
+}
+
+.details-updated2 {
+  padding-top: 5px;
+}
+
+.views-box {
   padding-top: 10px;
 }
 
