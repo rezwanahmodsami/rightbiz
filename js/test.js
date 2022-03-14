@@ -1,3 +1,6 @@
+axios.defaults.headers.post["Content-Type"] = "application/json;charset=utf-8";
+axios.defaults.headers.post["Access-Control-Allow-Origin"] = "*";
+
 const url =
   "https://www.rightdev.co.uk/include-functions/viewed-business.php?email=samiahmed0f0@gmail.com&ip=2a00:23c8:8789:9801:516d:33e3:afe4:2a3c";
 

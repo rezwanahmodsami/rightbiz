@@ -196,12 +196,12 @@ body {
 
 .btn-outline-blue {
   border: 1px solid var(--blue);
-  color: var(--blue);
+  color: var(--blue) !important;
   background: transparent;
 }
 
 .btn-outline-blue svg {
-  fill: var(--blue);
+  fill: var(--white);
 }
 
 .btn-outline-blue:hover svg {
@@ -210,7 +210,7 @@ body {
 
 .btn-outline-blue:hover {
   background: var(--blue);
-  color: var(--white);
+  color: var(--white) !important;
 }
 
 .btn-white {

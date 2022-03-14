@@ -535,6 +535,11 @@ td {
 
 /* business ads */
 
+.advert-info-content p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
 .business-ads-container {
   display: grid;
   grid-template-columns: 25% 75%;
@@ -928,6 +933,32 @@ td {
 .advert-info {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  grid-column-gap: 20px;
+}
+
+.img-body {
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.img-body img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.img-body button {
+  position: absolute;
+  bottom: 1px;
+  right: 0;
+  width: 100%;
+  padding: 10px;
+  background: var(--blue);
+  border: 0;
+  color: var(--white);
+  cursor: pointer;
+  font-size: 1rem;
 }
 
 .btn-body {
@@ -956,6 +987,12 @@ td {
 
 .status-indicator span {
   color: var(--red);
+  font-weight: 600;
+}
+
+.status-indicator .waiting {
+  color: var(--grey-d-1);
+  font-weight: 500;
 }
 
 .adverts-social-link {
