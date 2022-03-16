@@ -1131,10 +1131,14 @@ td {
   background: var(--white-d-2);
 }
 
+.fav-content>h2 {
+  margin-bottom: 1rem;
+}
+
 .fav-content-body {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  grid-column-gap: 10px;
+  grid-column-gap: 20px;
   align-items: center;
   border: 1px solid #ccc;
   padding: 10px;
@@ -1159,19 +1163,21 @@ td {
 
 .search-content-container>h2 {
   padding-left: 10px;
+  font-weight: 500;
 }
 
 .search-result {
   display: flex;
   justify-content: space-between;
   border: 1px solid #ccc;
-  padding: 10px;
+  padding: 16px;
   align-items: center;
   border-radius: 5px;
   margin: 8px 0;
 }
 
 .fav-heading p {
+  margin-top: 1rem;
   color: var(--green);
 }
 

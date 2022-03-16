@@ -1,8 +1,24 @@
-axios.defaults.headers.post["Content-Type"] = "application/json;charset=utf-8";
-axios.defaults.headers.post["Access-Control-Allow-Origin"] = "*";
+// function buttonHandler() {
+//   // First create an XMLHttprequest object
+//   const xhr = new XMLHttpRequest();
+//   xhr.open("GET", "./test.json", true);
+//   xhr.getResponseHeader("Content-type", "application/json");
 
-const url =
-  "https://www.rightdev.co.uk/include-functions/viewed-business.php?email=samiahmed0f0@gmail.com&ip=2a00:23c8:8789:9801:516d:33e3:afe4:2a3c";
+//   xhr.onload = function () {
+//     const obj = JSON.parse(this.responseText);
+//     console.log(obj);
+//   };
 
-// fetching data
-axios.get(url).then((res) => console.log(res.data));
+//   xhr.send();
+// }
+
+// buttonHandler();
+
+function loadData() {
+  let url = "../js/test.json";
+  fetch(url)
+    .then((res) => res.json())
+    .then((data) => console.log(data));
+}
+
+loadData();
