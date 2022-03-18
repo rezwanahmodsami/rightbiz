@@ -55,3 +55,9 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .social-login {
+    padding: 30px 10px;
+  }
+}
