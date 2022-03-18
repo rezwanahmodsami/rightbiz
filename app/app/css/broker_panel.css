@@ -1,0 +1,141 @@
+<?
+header("Content-type: text/css; charset: UTF-8");
+ob_start("ob_gzhandler");
+
+$css = "
+
+body{background:#f9f9f9!important;}
+
+.btn+.btn{margin-left:10px;}
+.btn.payment{border:1px solid #000;border-color:#a88734 #9c7e31 #846a29!important;font-weight:500!important;color:#222!important;line-height:15px;background:#faebc8;background:#f4d078;background:-webkit-linear-gradient(top,#f7dfa5,#f0c14b);background:linear-gradient(to bottom,#f7dfa5,#f0c14b);padding:10px 40px;outline:0;position:relative;z-index:1000}
+
+.cnwidth, .container {max-width: 980px;margin:auto;}
+.cnbox{    background: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: #bbb;
+    display: block;}
+
+    
+
+.table{display: table;table-layout: auto;}
+.table .thead{font-weight: bold;}
+.table>div{display: table-row;}
+.table>div>div{display: table-cell;padding:10px;border-top:1px solid #eee;}
+.table>div>.grow{white-space: nowrap;width:100%;}
+.table>div>.shrink{white-space: nowrap;width:0.1%;}
+.table>.thead>div{border-top-width:0px;}
+
+.tab_cn{padding:10px;}
+.tabs{background:#efefef;border:1px solid #ccc;width:100%;}
+.tab{padding:10px;display: inline-block;}
+.tab.selected{background:#3F3F3F;color:white;}
+
+.tab_group{display: none;padding-top:20px;}
+.tab_group.selected{display:block;}
+
+.shadow {box-shadow: 0 1px 5px 2px rgba(100,100,100,0.1);-webkit-box-shadow: 0 1px 5px 2px rgba(100,100,100,0.1);}
+.bg {background: #fff;}
+
+.tile{background: #fff;border: 1px solid #ddd;border-bottom: 2px solid #bbb;color: #555;margin-top: 20px;border-radius:5px;}
+
+.tile_header{
+    width:100%;text-align: left;border-bottom: 1px solid #ddd;
+}
+
+.tile_header>div>div{vertical-align: middle;padding:10px;}
+.tile_title{font-size: 17px;font-weight: bold;}
+
+.tile .table{margin-bottom:0;}
+
+
+.subhead{background: #547384!important;border: 0!important;font-weight: bold;font-size: 10pt;color: #fff;height: 36px;line-height: 36px;padding: 0 10px;border-radius: 3px 3px 0 0;-webkit-border-radius: 3px 3px 0 0;}
+.inp {width: 100%;border: 1px solid #ddd;color: #3F3F3F;font-size: 10pt;outline: 0;padding: 8px 10px;box-sizing: border-box;border-radius: 3px;-webkit-border-radius: 3px;box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);transition: border linear .2s, box-shadow linear .2s;}
+
+
+#nav_ul > li{border:0;}
+
+.img{display:inline-block;outline:none;border:0px;vertical-align:bottom;}
+
+
+
+.card_ending{display: inline-block;margin-bottom:20px;}
+.card_expires{display: inline-block;float:right;}
+.card_status{margin-bottom:20px;}
+
+
+.upgrade_icon{width:80px;text-align: center;    padding-bottom: 15px;}
+.upgrade_icon svg{width:40px;height:40px;}
+.upgrade_copy{font-size:14px;}
+.upgrade_copy p:first-child{font-size:17px;font-weight:bold;margin:5px 0 0;}
+.upgrade_copy p:last-child{max-width:70ch;}
+.upgrade_cta{text-align:right;padding-right:20px;}
+
+
+#upgrade-prompt-banner{margin:20px 0 20px;padding:20px 0;box-shadow: 0 1px 5px 2px rgba(100,100,100,0.1);-webkit-box-shadow: 0 1px 5px 2px rgba(100,100,100,0.1);background:white;}
+#upgrade-prompt-banner > div{display:table;width:100%;}
+#upgrade-prompt-banner > div > div{display:table-cell;vertical-align:middle;padding:0 10px;}
+#upgrade-prompt-banner > div > div:last-child{text-align: right;padding-right: 20px;}
+#upgrade-prompt-banner .star-icon{width:80px;text-align:center;padding-bottom: 5px;}
+#upgrade-prompt-banner .star-icon svg{width:40px;height:40px;}
+
+.blackbg{display:none;}
+.blackbg .wrap{position: fixed;top:0;right:0;left:0;bottom:0;width:100%;height:100%;display:table;z-index:1000000;}
+.blackbg .inner-wrap{display:table-cell;vertical-align: middle;background:rgba(0,0,0,0.3);text-align: center;}
+
+.popup{background:#FFF;padding:15px;border:1px solid #000;display:inline-block;position:relative;z-index:100000000;padding: 20px 60px 40px;-webkit-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.3);
+    -moz-box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.3);
+    box-shadow: 1px 1px 1px 0px rgba(0,0,0,0.3);}
+
+@media (max-width: 425px){
+	#upgrade-prompt-banner > div{display:block;}
+	#upgrade-prompt-banner > div > div{display:block;text-align:center!important;padding:10px 0!important;}
+
+	#upgrade-prompt-banner {padding: 20px;}
+	#upgrade-prompt-banner .star-icon{width:100%;}
+
+}
+
+
+
+@media screen and (min-width: 991px){
+    
+}
+
+@media (max-width: 990px){
+
+}
+
+@media screen and (min-width:767px){
+    .mobile-show{display: none!important;}
+}
+
+@media screen and (max-width:767px){
+    .mobile-hide{display: none!important;}
+    h1{font-size:27px;line-height:1.8;}
+    h2 {font-size:20px;}
+    
+    #sign_btns{display:none!important;}
+
+
+    .card_ending{display: block;margin-bottom:20px;}
+    .card_expires{display: inline-block;float:right;}
+    .card_status{margin-bottom:20px;}
+    
+    .upgrade_prompt td{display:block;}
+    .upgrade_icon{float:left;height: 100px;padding-top:5px;}
+    .upgrade_cta{text-align:left;padding-right:20px;}
+    .upgrade_copy p:first-child{font-size:17px;font-weight:bold;margin:0 0 20px;}
+    .upgrade_copy p:last-child{display: none;}
+
+    .popup{padding:20px 20px 40px}
+    .blackbg .wrap{bottom:-10%;height:110%;}
+
+}
+
+
+
+";
+
+$css = str_replace(array("\t","\n","\r"), "", $css);
+echo trim($css);
+?>

@@ -1,0 +1,30 @@
+{
+	"short_name": "Rightbiz",
+	"name": "Rightbiz",
+	"display": "minimal-ui",
+	"icons": [
+		{
+			"src": "/img/r_logo48x48.png",
+			"type": "image/png",
+			"sizes": "48x48"
+		},
+		{
+			"src": "/img/r_logo96x96.png",
+			"type": "image/png",
+			"sizes": "96x96"
+		},
+		{
+			"src": "/img/r_logo192x192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "/img/r_logo512x512.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"background_color": "#005da2",
+	"theme_color": "#FFF",
+	"start_url": "/"
+}

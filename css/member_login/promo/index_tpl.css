@@ -1,0 +1,53 @@
+body {
+  background: #ebeced;
+}
+
+.account-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.account-intro {
+  position: sticky;
+  top: 20px;
+}
+
+.account-intro ul li {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.social-login {
+  border-radius: 5px;
+}
+
+.social-login button {
+  width: 40%;
+  cursor: pointer;
+}
+
+.google-btn {
+  background: #dd4b39;
+  border: 1px solid #d04230;
+  box-shadow: 0 2px 1px rgb(0 0 0 / 30%);
+  border-radius: 3px;
+}
+
+.facebook-btn {
+  background: #3b5998;
+  border: 1px solid #314d8a;
+  box-shadow: 0 2px 1px rgb(0 0 0 / 30%);
+  border-radius: 3px;
+}
+
+.form-section {
+  border-radius: 5px;
+}
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+  .account-section {
+    grid-template-columns: 1fr;
+  }
+}

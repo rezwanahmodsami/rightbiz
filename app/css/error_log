@@ -1,0 +1,7 @@
+[18-Dec-2017 11:20:57 UTC] PHP Parse error:  syntax error, unexpected '";' (T_CONSTANT_ENCAPSED_STRING) in /home/rightbiz/public_html/app/css/style-new.css on line 1171
+[18-Dec-2017 11:20:58 UTC] PHP Parse error:  syntax error, unexpected '";' (T_CONSTANT_ENCAPSED_STRING) in /home/rightbiz/public_html/app/css/style-new.css on line 1171
+[14-Dec-2018 17:03:31 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/rightbiz/public_html/app/css/style-new.css on line 218
+[14-Dec-2018 17:07:21 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/rightbiz/public_html/app/css/style-new.css on line 218
+[14-Dec-2018 17:26:00 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/rightbiz/public_html/app/css/style-new.css on line 218
+[14-Dec-2018 17:26:11 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/rightbiz/public_html/app/css/style-new.css on line 218
+[14-Dec-2018 17:26:17 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting variable (T_VARIABLE) or ${ (T_DOLLAR_OPEN_CURLY_BRACES) or {$ (T_CURLY_OPEN) in /home/rightbiz/public_html/app/css/style-new.css on line 218

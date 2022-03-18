@@ -947,7 +947,10 @@ footer .footer__payment-link img {
   margin-bottom: 2.5rem;
 }
 
-
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .mx-1 {
   margin-left: .5rem;
@@ -1005,6 +1008,10 @@ footer .footer__payment-link img {
 
 .text-grey {
   color: var(--grey);
+}
+
+.text-dark-grey {
+  color: var(--grey-d-1);
 }
 
 
@@ -1074,6 +1081,21 @@ footer .footer__payment-link img {
   font-size: 3.5rem;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.normal-case {
+  text-transform: none;
+}
 
 
 .font-thin {

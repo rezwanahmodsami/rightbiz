@@ -1,0 +1,60 @@
+<?
+header("Content-type: text/css; charset: UTF-8");
+ob_start("ob_gzhandler");
+
+$blue = '#006291';
+
+/*
+	EMMET-CODE for plans
+	div.plan>(div.plan-head.plan-grey{PACKAGE_NAME})+(div.plan-body>(ul>li*3)+div.plan-price>div.plan-price-before{OFFER}+div.plan-price-val{£###}+div.plan-price-after{OFFER2})+(div.plan-footer>button.buy-btn.btn.btn-gold[type="button"]{BUY NOW}>span{&raquo;})
+*/
+
+$css = "
+		.row-package{margin:40px 0 20px;font-family:'Open Sans';}
+		.firstpackage,.packages{border-radius:3px;}
+		.packages{margin-top:75px;margin-right:14px;border:1px solid #ddd;}
+		.packages .topbar{background-color:#dddddd;color:black;height:59px;text-align:center;padding:10px;font-size:16px;line-height:18px;}
+		.packagedetail{background-color:white;height:166px;}
+		.packagedetailtop{height:104px;padding:10px;box-sizing:border-box;text-align:center;}
+		.packagedetailtop .priceholder:first-child{margin-top:38px;}
+		.priceholder{height:50px;line-height:19px;text-align:center;}
+		.priceholder .origprice{color:grey;font-size:16px;position:relative;bottom:4px;display:none}
+		.priceholder .mainprice{font-size:40px;font-weight:bold;color:black;}
+		.priceholder .mainprice span{font-size:18px;font-weight:bold;color:black;}
+		.priceholder .intro_offer_txt{display:none;}
+		.priceholder .lessthan{color:#3d991d;}
+		.one_off{color:#777;font-family:arial;font-size:11px;position:relative;top:0px;text-align:center;}
+		.firstpackage{border:1px solid #00649f;}
+		.firstpackage .topbarblue{background-color:#00649f;height:59px;text-align:center;color:white;padding:10px;font-size:16px;line-height:18px;position:relative;border-radius:3px 3px 0 0px;}
+		.firstpackage .topbar .amountoff{position:absolute;background:transparent url(/img/amountoff_flat.png) no-repeat;width:61px;height:61px;right:-23px;top:-23px;}
+		.firstpackage .topbar .amountoff .amounttext{text-align:center;position:absolute;left:11px;top:14px;color:black;font-weight:bold;line-height:14px;margin-top:3px;font-size:13px;}
+		.promo_tag{background:#ea8f03;color:#fff;display:inline-block;font-size:11px;font-weight:bold;line-height:20px;height:20px;padding:0px 8px;position:relative;top:-20px;}
+		.bulletpointul{padding:0;list-style-type:none;margin:15px auto 30px;width:186px;}
+		.bulletpointul li{text-align:left;font-size:14px;color:#555555;}
+		.firstpackage .packagedetail{border-radius:0 0 3px 3px;}
+		.sellnowgr{border-color:#58a037;text-decoration:none!important;padding:8px 14px;font-size:17px;font-weight:600;background:#68c43e;color:white!important;background:-moz-linear-gradient(top,#68c43e 0%,#408223 100%);background:-webkit-linear-gradient(top,#68c43e 0%,#408223 100%);background:linear-gradient(to bottom,#68c43e 0%,#408223 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#68c43e',endColorstr='#408223',GradientType=0);}
+		.sellnowgr:hover,.sellnowgr:active,.sellnowgr:hover:active{border-color:#347d15;background:-moz-linear-gradient(top,#68c43e 0%,#408223 100%);background:-webkit-linear-gradient(top,#68c43e 0%,#408223 100%);background:linear-gradient(to bottom,#81dc57 0%,#42921e 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#68c43e',endColorstr='#408223',GradientType=0);}
+		.sellnowgr:active{box-shadow:inset 0px 2px 4px rgba(0,0,0,0.5);-webkit-box-shadow:inset 0px 2px 4px rgba(0,0,0,0.5);}
+		.lock_ic{fill:white;}
+
+		.plan-head{border-radius:5px 5px 0 0;font-size:16px;font-weight:600;padding:10px 17px;position:relative;text-align:center;}
+		.best_val{position:absolute;display:inline-block;   top:-19px;right:-24px;z-index:1;}
+		.best_val svg{width:65px;height:65px;fill:#f75656;}
+		.val_text{font-size:13px!important;font-weight:600;height:30px;position:absolute;z-index:900;text-align:center;top:13px;left:6px;width:54px;color:white!important;}
+		.plan-body ul li > svg{height:15px;margin:4px 10px 5px 3px;width:15px;}
+		.tick_ic{height:30px;fill:#035f90;}
+		.buy-btn{color:#333;font-size:17px;margin:10px 10px 10px 10px;display:block;padding:8px 14px;}
+		svg.lock_ic{height:15px;margin:-3px 8px 0 0;width: 14px;}
+		.plan-grey{background:#fafafa;border-bottom:1px solid #ddd;color:#333;}
+		.sellnow-btn{color:#333;box-sizing:border-box;text-decoration:none!important;padding:8px 14px;display:block;font-size:17px;font-weight:600;width:initial;margin:10px 10px 10px 10px;background:#fafafa;border:solid 1px #ddd;}
+
+
+";
+
+
+
+$css = str_replace(array("\t","\n","\r"), "", $css);
+$css = str_replace(":", ":", $css);
+echo trim($css);
+
+?>
